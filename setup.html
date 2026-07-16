@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Showroom TV — Setup Guide · Ameri Auto Group</title>
+<style>
+  :root { --red: #d0212c; --ink: #16191c; --muted: #5a666d; --line: #e3e8ea; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink); background: #fff; line-height: 1.55; padding: 28px 20px 60px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .brand { font-weight: 800; letter-spacing: 0.02em; }
+  .brand em { color: var(--red); font-style: normal; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 6px 0 4px; }
+  .sub { color: var(--muted); margin-bottom: 22px; }
+  .linkbox {
+    background: #f5f7f8; border: 2px solid var(--ink); border-radius: 14px;
+    padding: 18px 20px; margin: 18px 0 26px; text-align: center;
+  }
+  .linkbox .big { font-size: 26px; font-weight: 800; letter-spacing: 0.01em; }
+  .linkbox .small { color: var(--muted); font-size: 14px; margin-top: 6px; }
+  h2 {
+    font-size: 15px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--red);
+    margin: 30px 0 10px; padding-top: 18px; border-top: 1px solid var(--line);
+  }
+  ol { padding-left: 22px; }
+  ol li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  ul li { margin: 6px 0; }
+  .note {
+    background: #fff8ec; border: 1px solid #f0dcae; border-radius: 10px;
+    padding: 12px 14px; margin: 14px 0; font-size: 15px;
+  }
+  .faq dt { font-weight: 700; margin-top: 14px; }
+  .faq dd { margin-left: 0; color: var(--muted); }
+  kbd {
+    background: #f0f2f4; border: 1px solid var(--line); border-bottom-width: 2px;
+    border-radius: 6px; padding: 1px 7px; font-family: inherit; font-size: 0.95em; white-space: nowrap;
+  }
+  @media print { body { padding: 0; } .linkbox { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">AMERI <em>AUTO GROUP</em> — Showroom TV</div>
+  <h1>Put our live inventory on the TV</h1>
+  <p class="sub">The TV shows every car currently on ameriautogroup.com — photo, price, mileage —
+  and updates itself. Once it's set up, the only thing anyone ever does is turn the TV on.</p>
+
+  <div class="linkbox">
+    <div class="big">tinyurl.com/ameri-tv</div>
+    <div class="small">Type this into the TV's web browser. (Full address: poshguard.github.io/ameri-tv)</div>
+  </div>
+
+  <h2>One-time setup — Fire TV Stick (recommended, ~$30)</h2>
+  <ol>
+    <li>Plug the Fire TV Stick into the TV's HDMI port, and plug its power cable into a
+        <b>wall outlet using the included adapter</b> — not the TV's USB port (that causes
+        freezes and random shut-offs).</li>
+    <li>Connect it to the store's main password-protected Wi-Fi — not a guest network that
+        shows a sign-in page (the stick keeps dropping off those).</li>
+    <li>The first time, the stick asks you to sign in with an Amazon account — ask Ulugbek to
+        do this part (takes 5 minutes, only once).</li>
+    <li>From the stick's app store, search for and install <b>Silk Browser</b> (free, by Amazon).</li>
+    <li>Open Silk and type <kbd>tinyurl.com/ameri-tv</kbd> in the address bar. The display appears.</li>
+    <li>Steer the round cursor anywhere over the cars with the remote's ring and press the
+        <b>center Select button once</b> — it goes fullscreen. (Pressing again takes it back
+        out, so press once and put the remote down.)</li>
+    <li>Save it: open the Silk menu and choose <b>Add to bookmarks</b>. Next time it's one click.</li>
+    <li>Stop the screensaver: on the Fire TV home screen go to
+        <kbd>Settings</kbd> → <kbd>Display &amp; Sounds</kbd> → <kbd>Screensaver</kbd> → <kbd>Start time</kbd> → <b>Never</b>.</li>
+    <li><b>Test it:</b> leave the TV alone for 30 minutes. If the screen goes dark or jumps back
+        to the Fire TV home screen, tell Ulugbek — the stick needs a one-time technical tweak
+        to disable its sleep timer. Don't try to fix it yourself.</li>
+  </ol>
+
+  <h2>Or: the TV's built-in browser (Samsung, LG, etc.)</h2>
+  <ol>
+    <li>Open the TV's web browser app (usually called "Internet" on Samsung, "Web Browser" on LG).</li>
+    <li>Type <kbd>tinyurl.com/ameri-tv</kbd> and press OK.</li>
+    <li>Click once for fullscreen, and bookmark the page.</li>
+  </ol>
+  <p class="sub">If you can't find a browser app after a minute of looking, the TV doesn't have
+  one (Roku and Vizio TVs usually don't) — use the Fire TV Stick option above. Built-in TV
+  browsers also tend to be slower and occasionally exit on their own, which is why the Stick
+  is the recommended option.</p>
+
+  <h2>TV settings — so it stays on all day</h2>
+  <ul>
+    <li>Turn <b>off</b> the sleep timer and "auto power off".</li>
+    <li>Turn <b>off</b> eco / energy-saving modes that dim or switch off the screen.</li>
+    <li>Turn <b>off</b> the TV's own screensaver.</li>
+  </ul>
+
+  <div class="note"><b>Daily routine:</b> turn the TV on and open the bookmark. That's everything.
+  Cars, prices, and photos sync from the website automatically every few hours.
+  If you see cable TV or a blank screen instead, press the <b>Input/Source</b> button on the TV
+  remote and pick the HDMI the Fire TV Stick is plugged into.</div>
+
+  <h2>Common questions</h2>
+  <dl class="faq">
+    <dt>We sold a car — how do I take it off the TV?</dt>
+    <dd>You don't. When it's removed from ameriautogroup.com, it drops off the TV by itself within a few hours.</dd>
+    <dt>It says "Loading inventory…" and never finishes.</dt>
+    <dd>The TV lost its internet connection. Reconnect the Wi-Fi — the screen fixes itself within a minute.</dd>
+    <dt>The screen is frozen or blank.</dt>
+    <dd>Unplug the TV (or the Fire TV Stick) for 10 seconds, plug it back in, and open the bookmark
+    again. If it still looks wrong, check the TV is on the right <b>Input/Source</b> (HDMI) —
+    after a power cycle some TVs come back on a different input, which looks broken but isn't.</dd>
+    <dt>A price looks wrong.</dt>
+    <dd>The TV shows exactly what the website shows. Fix the price on ameriautogroup.com and the TV follows.</dd>
+  </dl>
+
+  <p class="sub" style="margin-top:28px">Questions? Ask Ulugbek. · This guide lives at
+  <b>poshguard.github.io/ameri-tv/setup.html</b> — print it or send the link.</p>
+</main>
+</body>
+</html>

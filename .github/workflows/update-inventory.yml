@@ -2,7 +2,7 @@ name: Update inventory from ameriautogroup.com
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "0 */3 * * *" # every 3 hours
   workflow_dispatch: {} # manual "Run workflow" button
 
 permissions:
