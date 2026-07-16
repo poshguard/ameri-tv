@@ -24,8 +24,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Playwright
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
 
       - name: Scrape inventory
         env:
@@ -41,7 +41,7 @@ jobs:
             echo "No changes."
           else
             git commit -m "Update inventory $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
           fi
 
