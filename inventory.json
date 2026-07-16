@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T20:58:22.204Z",
+  "updated_at": "2026-07-16T21:06:29.239Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -111,18 +111,6 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "JTDKARFP5H3003775",
-      "stock": "01111W",
-      "title": "2017 TOYOTA PRIUS PRIME",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius-prime/01111w/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202607-1b12bbe6ea2a4c4dbafadddc6a964dff.jpg",
-      "price": 16495,
-      "mileage": 73266,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
-    },
-    {
       "vin": "3GTU2LEC9GG250066",
       "stock": "250066",
       "title": "2016 GMC SIERRA 1500 CREW CAB",
@@ -133,6 +121,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKARFP5H3003775",
+      "stock": "01111W",
+      "title": "2017 TOYOTA PRIUS PRIME",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius-prime/01111w/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202607-1b12bbe6ea2a4c4dbafadddc6a964dff.jpg",
+      "price": 16495,
+      "mileage": 73266,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     },
     {
       "vin": "5TFSX5EN2HX048821",
