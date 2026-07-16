@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Ameri Auto Group — Live Inventory</title>
+<style>
+  /* TV showroom display for Ameri Auto Group LLC.
+     Designed for a 1080p/4K TV across a room: huge type, high contrast,
+     ~3vmin padding on every edge so TV overscan never clips content.
+     Compatibility floor is old smart-TV browsers (~Chromium 66-79): no
+     `inset`, no flex `gap` (margins instead), no `aspect-ratio`
+     (padding-top ratio hack), no optional chaining / arrow functions. */
+  :root {
+    --bg: #0c1114;
+    --ink: #f2f6f7;
+    --muted: #9fb1b6;
+    --red: #e0242f;
+    --line: rgba(255, 255, 255, 0.14);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    cursor: default;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .tv {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+    display: flex; flex-direction: column; padding: 2.6vmin 3.6vmin; z-index: 2;
+  }
+
+  /* ---- Top bar ---- */
+  .top { display: flex; align-items: center; }
+  .top__logo img { height: 7vmin; display: block; }
+  .top__logo span { font-size: 3.4vmin; font-weight: 800; letter-spacing: 0.04em; display: none; }
+  .top__logo.noimg img { display: none; }
+  .top__logo.noimg span { display: block; }
+  .top__label {
+    margin-left: auto; color: var(--muted); font-weight: 700;
+    font-size: 1.9vmin; letter-spacing: 0.16em; text-transform: uppercase;
+  }
+  .top__label strong { color: var(--ink); }
+  .top__clock {
+    color: var(--muted); font-size: 2.6vmin; font-variant-numeric: tabular-nums;
+    min-width: 9ch; text-align: right; margin-left: 2vw;
+  }
+
+  /* ---- Stage ---- */
+  .stage { position: relative; flex: 1; min-height: 0; margin-top: 1vmin; overflow: hidden; }
+  .slide {
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+    opacity: 0; transition: opacity 0.9s ease;
+  }
+  .slide.on { opacity: 1; }
+  .slide__bg {
+    position: fixed; top: -4%; right: -4%; bottom: -4%; left: -4%;
+    z-index: -1; object-fit: cover; width: 108%; height: 108%;
+    -webkit-filter: blur(30px) brightness(0.32) saturate(1.15);
+    filter: blur(30px) brightness(0.32) saturate(1.15);
+  }
+  .slide__grid {
+    height: 100%; display: grid; grid-template-columns: 1fr 1.05fr;
+    gap: 3.5vw; align-items: center;
+  }
+  .info__kicker {
+    color: var(--red); font-weight: 800; letter-spacing: 0.16em;
+    text-transform: uppercase; font-size: 2vmin; margin-bottom: 1.4vmin;
+  }
+  .info__kicker span { color: var(--muted); }
+  .info__title {
+    font-size: 6.4vmin; line-height: 1.05; font-weight: 800; letter-spacing: -0.01em;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .info__price { font-size: 8.4vmin; font-weight: 800; margin-top: 1.6vmin; letter-spacing: -0.02em; }
+  .info__chips { margin-top: 1.6vmin; }
+  .info__chips li {
+    display: inline-block; list-style: none; font-size: 2.4vmin; font-weight: 600;
+    border: 1px solid var(--line); background: rgba(255, 255, 255, 0.07);
+    border-radius: 999px; padding: 0.9vmin 2vmin; margin: 1vmin 1.2vmin 0 0;
+  }
+  .photo {
+    position: relative; width: 100%; padding-top: 72%; border-radius: 2vmin;
+    overflow: hidden; box-shadow: 0 3vh 7vh rgba(0, 0, 0, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .photo img {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    object-fit: cover; display: block;
+  }
+
+  .progress {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 0.55vmin;
+    border-radius: 999px; background: rgba(255, 255, 255, 0.10); overflow: hidden;
+  }
+  .progress i { display: block; height: 100%; width: 100%; background: var(--red); transform: scaleX(0); transform-origin: left; }
+  .progress i.run { animation: fill linear both; }
+  @keyframes fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+  /* ---- Bottom bar ---- */
+  .bottom { display: flex; align-items: center; margin-top: 2.6vmin; }
+  .qrwrap {
+    display: flex; align-items: center;
+    background: rgba(255, 255, 255, 0.06); border: 1px solid var(--line);
+    border-radius: 1.8vmin; padding: 1.8vmin 2.2vmin;
+  }
+  .qr {
+    width: 16vmin; height: 16vmin; background: #fff; border-radius: 1.2vmin;
+    padding: 1.9vmin; flex-shrink: 0; margin-right: 2vw;
+  }
+  .qr svg { width: 100%; height: 100%; display: block; }
+  .qrtext { font-size: 2.2vmin; color: var(--muted); line-height: 1.45; max-width: 44vw; }
+  .qrtext strong { display: block; color: var(--ink); font-size: 1.25em; margin-bottom: 0.3vmin; }
+  .qrtext b { color: var(--ink); font-weight: 700; }
+
+  .next { margin-left: auto; text-align: right; }
+  .next__label { color: var(--red); font-weight: 800; font-size: 1.7vmin; letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 1vmin; }
+  .next__row { display: flex; justify-content: flex-end; }
+  .next__item { width: 13vmin; margin-left: 1.4vmin; }
+  .next__item img, .next__item .noimg {
+    width: 100%; height: 9.7vmin; object-fit: cover; border-radius: 1vmin;
+    border: 1px solid var(--line); display: block; background: rgba(255, 255, 255, 0.06);
+  }
+  .next__item div.cap {
+    font-size: 1.5vmin; color: var(--muted); margin-top: 0.6vmin; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+
+  .fine { margin-top: 1.6vmin; color: var(--muted); opacity: 0.8; font-size: 1.55vmin; }
+  .fine span { margin-right: 2em; }
+  .fine .stale { color: #ffb020; font-weight: 700; }
+
+  /* ---- Status / empty states ---- */
+  .status {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 5; display: none;
+    align-items: center; justify-content: center; text-align: center;
+    background: var(--bg); padding: 6vmin;
+  }
+  .status.show { display: flex; }
+  .status h1 { font-size: 5vmin; margin-bottom: 1.5vmin; }
+  .status p { color: var(--muted); font-size: 2.6vmin; }
+
+  .hint {
+    position: fixed; top: 2vmin; left: 50%; transform: translateX(-50%); z-index: 6;
+    background: rgba(0, 0, 0, 0.6); border: 1px solid var(--line); border-radius: 999px;
+    padding: 0.8vmin 2.4vmin; font-size: 1.9vmin; color: var(--muted);
+    animation: hintfade 8s ease both; pointer-events: none;
+  }
+  @keyframes hintfade { 0%, 70% { opacity: 1; } 100% { opacity: 0; } }
+</style>
+</head>
+<body>
+
+<div class="tv">
+  <header class="top">
+    <div class="top__logo" id="logo">
+      <img src="https://dcdws.blob.core.windows.net/dws-29005371-102432-media/sites/102432/2025/12/logo-2-w300.png"
+           alt="Ameri Auto Group" onerror="document.getElementById('logo').className += ' noimg'">
+      <span>AMERI AUTO GROUP</span>
+    </div>
+    <div class="top__label">Live inventory · <strong id="count">—</strong></div>
+    <div class="top__clock" id="clock"></div>
+  </header>
+
+  <main class="stage">
+    <div class="slide" id="slideA"></div>
+    <div class="slide" id="slideB"></div>
+    <div class="progress"><i id="bar"></i></div>
+  </main>
+
+  <footer class="bottom">
+    <div class="qrwrap">
+      <div class="qr" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h29v29H0z"/><path stroke="#000000" d="M0 0.5h7m2 0h1m1 0h1m3 0h2m2 0h2m1 0h7M0 1.5h1m5 0h1m3 0h3m4 0h2m1 0h1m1 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m1 0h1m1 0h2m2 0h1m1 0h1m1 0h3m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h2m1 0h1m4 0h2m4 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m1 0h2m2 0h4m1 0h4m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m1 0h1m2 0h7m2 0h1m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h1m1 0h1m1 0h1m3 0h2M0 8.5h1m1 0h5m2 0h2m3 0h2m1 0h1m1 0h1m2 0h5M0 9.5h2m1 0h2m2 0h6m2 0h2m2 0h6m3 0h1M0 10.5h1m3 0h5m1 0h1m1 0h1m8 0h1M1 11.5h4m2 0h2m1 0h3m1 0h1m1 0h1m3 0h1m2 0h1m1 0h1m1 0h1M0 12.5h1m3 0h1m1 0h1m2 0h1m2 0h1m3 0h2m2 0h1m4 0h2M2 13.5h1m1 0h2m2 0h1m3 0h4m3 0h4m1 0h1m3 0h1M2 14.5h2m2 0h3m2 0h1m1 0h4m1 0h1m1 0h1m1 0h2m1 0h2M0 15.5h2m1 0h2m3 0h2m1 0h1m1 0h1m1 0h1m2 0h1m1 0h1m2 0h2m2 0h1M0 16.5h3m1 0h1m1 0h1m2 0h1m1 0h1m2 0h2m1 0h2m1 0h1m2 0h1m1 0h2M0 17.5h2m1 0h3m3 0h1m5 0h10m1 0h1m1 0h1M0 18.5h1m1 0h2m1 0h2m2 0h1m1 0h2m4 0h1m2 0h1m2 0h1m2 0h1M0 19.5h1m1 0h1m1 0h1m2 0h4m1 0h1m1 0h1m1 0h1m1 0h1m4 0h2m2 0h1M0 20.5h1m5 0h2m3 0h1m5 0h1m2 0h5m1 0h3M8 21.5h1m1 0h1m2 0h3m2 0h1m1 0h1m3 0h5M0 22.5h7m2 0h1m1 0h10m1 0h1m1 0h3M0 23.5h1m5 0h1m1 0h1m2 0h1m1 0h1m2 0h1m2 0h2m3 0h1m3 0h1M0 24.5h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h1m2 0h1m2 0h5m1 0h1m1 0h1M0 25.5h1m1 0h3m1 0h1m1 0h2m3 0h1m3 0h3m3 0h1m1 0h2M0 26.5h1m1 0h3m1 0h1m1 0h2m2 0h6m2 0h1m1 0h6M0 27.5h1m5 0h1m2 0h2m4 0h2m3 0h2m1 0h1m1 0h1m1 0h1M0 28.5h7m1 0h4m2 0h1m2 0h1m1 0h1m1 0h6"/></svg></div>
+      <div class="qrtext">
+        <strong>Like one of these? Scan for photos, details &amp; easy financing.</strong>
+        <b>ameriautogroup.com</b> · (936) 800-0002 — Good credit, bad credit, first-time buyers welcome.
+      </div>
+    </div>
+    <div class="next">
+      <div class="next__label">Up next</div>
+      <div class="next__row" id="next"></div>
+    </div>
+  </footer>
+
+  <div class="fine">
+    <span>Ameri Auto Group LLC · 23541 Pebble Run Pl Ste 120, Sterling, VA 20166</span>
+    <span>Prices exclude taxes, tags &amp; processing fees.</span>
+    <span id="updated"></span>
+  </div>
+</div>
+
+<div class="status" id="status">
+  <div>
+    <h1>Loading inventory…</h1>
+    <p>This screen updates itself from ameriautogroup.com.</p>
+  </div>
+</div>
+
+<div class="hint">Click anywhere for fullscreen</div>
+
+<script>
+(function () {
+  "use strict";
+  var SLIDE_MS = 10000;               // one car every 10 seconds
+  var REFRESH_MS = 10 * 60 * 1000;    // re-check the website feed every 10 minutes
+  var RELOAD_MS = 24 * 60 * 60 * 1000; // daily full reload keeps TV browsers healthy
+  var STALE_MS = 48 * 60 * 60 * 1000; // warn on screen if the feed is older than 2 days
+
+  var vehicles = [];
+  var deckJson = "";
+  var idx = 0;
+  var layers = [document.getElementById("slideA"), document.getElementById("slideB")];
+  var active = 0;
+  var showSeq = 0; // guards against an older show() resolving after a newer one
+  var num = new Intl.NumberFormat("en-US");
+  var usd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function tc(s) { // Title Case for ALLCAPS scraped values like "AUTOMATIC"
+    return String(s || "").toLowerCase().replace(/\b[a-z]/g, function (c) { return c.toUpperCase(); });
+  }
+  function thumb(url) { return url ? url.replace(/\/\d+\/\d+\//, "/320/240/") : ""; }
+  function fmtTime(date, opts) {
+    // TV browsers sometimes ship without IANA timezone data — fall back to
+    // the device's local time rather than throwing.
+    try {
+      opts.timeZone = "America/New_York";
+      return date.toLocaleTimeString("en-US", opts);
+    } catch (e) {
+      delete opts.timeZone;
+      return date.toLocaleTimeString("en-US", opts);
+    }
+  }
+
+  function slideHtml(v, imageOk) {
+    var img = imageOk && v.image ? esc(v.image) : null;
+    var chips = [];
+    var miles = Number(v.mileage);
+    if (v.mileage != null && isFinite(miles) && miles > 0) chips.push(esc(num.format(miles)) + " miles");
+    if (v.drivetrain) chips.push(esc(v.drivetrain));
+    if (v.transmission) chips.push(esc(tc(v.transmission)));
+    if (v.fuel) chips.push(esc(tc(v.fuel)));
+    return (
+      (img ? '<img class="slide__bg" src="' + img + '" alt="" aria-hidden="true">' : "") +
+      '<div class="slide__grid">' +
+        "<div>" +
+          '<div class="info__kicker">For sale' + (v.stock ? " <span>· Stock #" + esc(v.stock) + "</span>" : "") + "</div>" +
+          '<h1 class="info__title">' + esc(v.title) + "</h1>" +
+          '<div class="info__price">' + (v.price != null ? esc(usd.format(v.price)) : "Ask for price") + "</div>" +
+          '<ul class="info__chips">' + chips.map(function (c) { return "<li>" + c + "</li>"; }).join("") + "</ul>" +
+        "</div>" +
+        (img ? '<div class="photo"><img src="' + img + '" alt="' + esc(v.title) + '"></div>' : "<div></div>") +
+      "</div>"
+    );
+  }
+
+  function preload(url) {
+    // Resolves with true only if the image really loaded — a dead CDN URL
+    // makes the slide render photo-less instead of showing broken-image icons.
+    return new Promise(function (resolve) {
+      if (!url) return resolve(false);
+      var done = false;
+      var img = new Image();
+      img.onload = function () { if (!done) { done = true; resolve(true); } };
+      img.onerror = function () { if (!done) { done = true; resolve(false); } };
+      img.src = url;
+      setTimeout(function () { if (!done) { done = true; resolve(true); } }, 5000);
+    });
+  }
+
+  function restartProgress() {
+    var bar = document.getElementById("bar");
+    bar.classList.remove("run");
+    void bar.offsetWidth; // reflow restarts the animation
+    bar.style.animationDuration = SLIDE_MS + "ms";
+    if (vehicles.length > 1) bar.classList.add("run");
+  }
+
+  function renderNext() {
+    var wrap = document.getElementById("next").parentElement;
+    var row = document.getElementById("next");
+    if (vehicles.length < 2) { wrap.style.visibility = "hidden"; return; }
+    wrap.style.visibility = "visible";
+    var html = "";
+    var count = Math.min(3, vehicles.length - 1);
+    for (var o = 1; o <= count; o++) {
+      var v = vehicles[(idx + o) % vehicles.length];
+      var t = thumb(v.image);
+      html += '<div class="next__item">' +
+              (t ? '<img src="' + esc(t) + '" alt="">' : '<div class="noimg"></div>') +
+              '<div class="cap">' + esc(v.title) + (v.price != null ? " · " + esc(usd.format(v.price)) : "") + "</div></div>";
+    }
+    row.innerHTML = html;
+  }
+
+  function show(i) {
+    var v = vehicles[i];
+    if (!v) return;
+    var seq = ++showSeq;
+    preload(v.image).then(function (imageOk) {
+      if (seq !== showSeq) return; // a newer slide superseded this one
+      var back = layers[1 - active];
+      back.innerHTML = slideHtml(v, imageOk);
+      back.classList.add("on");
+      layers[active].classList.remove("on");
+      active = 1 - active;
+      renderNext();
+      restartProgress();
+    });
+  }
+
+  function applyDeck(list) {
+    vehicles = list;
+    document.getElementById("count").textContent =
+      vehicles.length + (vehicles.length === 1 ? " vehicle" : " vehicles");
+    idx = 0;
+    show(0);
+  }
+
+  function markFreshness(updatedAt) {
+    var el = document.getElementById("updated");
+    try {
+      var ts = new Date(updatedAt);
+      var label = fmtTime(ts, { hour: "numeric", minute: "2-digit" });
+      var day = ts.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      if (Date.now() - ts.getTime() > STALE_MS) {
+        el.innerHTML = '<span class="stale">Inventory last synced ' + esc(day) +
+          " — see ameriautogroup.com for the latest.</span>";
+      } else {
+        el.textContent = "Inventory synced " + day + ", " + label;
+      }
+    } catch (e) { el.textContent = ""; }
+  }
+
+  function load(isFirst) {
+    return fetch("inventory.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (data) {
+        var list = (data && data.vehicles) || [];
+        if (!list.length) throw new Error("empty");
+        document.getElementById("status").className = "status";
+        var json = JSON.stringify(list);
+        if (json !== deckJson) { deckJson = json; applyDeck(list); }
+        if (data.updated_at) markFreshness(data.updated_at); // cosmetic — after the deck
+      })
+      .catch(function () {
+        if (isFirst && !vehicles.length) {
+          document.getElementById("status").className = "status show";
+          setTimeout(function () { load(true); }, 30000);
+        }
+        // otherwise: keep showing the current deck — transient network blip
+      });
+  }
+
+  // Clock — dealership local time (Sterling, VA).
+  function tickClock() {
+    document.getElementById("clock").textContent =
+      fmtTime(new Date(), { hour: "numeric", minute: "2-digit" });
+  }
+  tickClock();
+  setInterval(tickClock, 15000);
+
+  // Slideshow.
+  setInterval(function () {
+    if (vehicles.length > 1) { idx = (idx + 1) % vehicles.length; show(idx); }
+  }, SLIDE_MS);
+
+  // Feed refresh.
+  setInterval(load, REFRESH_MS);
+
+  // Daily reload — but only when the network is reachable, so a Wi-Fi blip at
+  // 4am can't strand the TV on a browser error page. Retries every 10 min.
+  function reloadWhenReachable() {
+    fetch("inventory.json?ping=" + Date.now(), { cache: "no-store" })
+      .then(function (r) {
+        if (r.ok) { location.reload(); }
+        else { setTimeout(reloadWhenReachable, REFRESH_MS); }
+      })
+      .catch(function () { setTimeout(reloadWhenReachable, REFRESH_MS); });
+  }
+  setTimeout(reloadWhenReachable, RELOAD_MS);
+
+  // Keep the screen awake where supported.
+  function wakeLock() {
+    if (navigator.wakeLock && navigator.wakeLock.request) {
+      navigator.wakeLock.request("screen").catch(function () {});
+    }
+  }
+  wakeLock();
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible") wakeLock();
+  });
+
+  // Click/tap anywhere toggles fullscreen (for laptops/tablets; TVs are already fullscreen).
+  document.addEventListener("click", function () {
+    if (document.fullscreenElement) { document.exitFullscreen().catch(function () {}); }
+    else if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen().catch(function () {});
+    }
+  });
+
+  load(true);
+})();
+</script>
+</body>
+</html>

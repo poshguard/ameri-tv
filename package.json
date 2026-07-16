@@ -1,0 +1,14 @@
+{
+  "name": "ameri-tv",
+  "version": "1.0.0",
+  "description": "TV inventory display for Ameri Auto Group — mirrors ameriautogroup.com",
+  "scripts": {
+    "scrape": "node scrape.mjs",
+    "serve": "python3 -m http.server 8090"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  },
+  "private": true
+}

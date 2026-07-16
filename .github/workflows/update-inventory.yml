@@ -1,0 +1,63 @@
+name: Update inventory from ameriautogroup.com
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch: {} # manual "Run workflow" button
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: update-inventory
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Playwright
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Scrape inventory
+        run: node scrape.mjs
+
+      - name: Commit updated inventory
+        run: |
+          git config user.name "inventory-bot"
+          git config user.email "actions@github.com"
+          git add inventory.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update inventory $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+
+      # If the scrape fails (Cloudflare block, site redesign), open a GitHub
+      # issue so the failure is visible on the repo homepage — otherwise the
+      # TV would silently show stale inventory for weeks.
+      - name: Flag failure as an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Inventory scrape failing in:title" --json number --jq '.[0].number' || true)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "Still failing: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "Inventory scrape failing — TV may show outdated cars" \
+              --body "The automatic inventory update failed. The TV keeps showing the last good list, but it will get stale. Check the run log: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi
