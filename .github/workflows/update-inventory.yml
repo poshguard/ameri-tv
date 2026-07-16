@@ -25,11 +25,11 @@ jobs:
           node-version: 20
 
       - name: Install Playwright
-        run: |
-          npm install
-          npx playwright install --with-deps chromium
+        run: npm install
 
       - name: Scrape inventory
+        env:
+          BROWSER_CHANNEL: chrome # runner's installed Chrome — better Cloudflare pass rate
         run: node scrape.mjs
 
       - name: Commit updated inventory
@@ -55,7 +55,7 @@ jobs:
         run: |
           existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "Inventory scrape failing in:title" --json number --jq '.[0].number' || true)
           if [ -n "$existing" ]; then
-            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "Still failing: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            echo "Failure issue already open (#$existing) — not spamming comments."
           else
             gh issue create --repo "$GITHUB_REPOSITORY" \
               --title "Inventory scrape failing — TV may show outdated cars" \

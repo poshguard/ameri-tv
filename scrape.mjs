@@ -67,8 +67,12 @@ function findNextLink(page) {
 }
 
 async function main() {
+  // BROWSER_CHANNEL=chrome uses the machine's installed Google Chrome (new
+  // headless mode) — a more browser-like fingerprint for Cloudflare than
+  // Playwright's bundled headless shell. Used by CI.
   const browser = await chromium.launch({
     headless: true,
+    channel: process.env.BROWSER_CHANNEL || undefined,
     args: ["--disable-blink-features=AutomationControlled"],
   });
   // The Chrome user-agent override is load-bearing: with the default
