@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T16:08:59.604Z",
+  "updated_at": "2026-07-17T18:55:41.409Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -123,18 +123,6 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "JTDKARFP5H3003775",
-      "stock": "01111W",
-      "title": "2017 TOYOTA PRIUS PRIME",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius-prime/01111w/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202607-1b12bbe6ea2a4c4dbafadddc6a964dff.jpg",
-      "price": 16495,
-      "mileage": 73266,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
-    },
-    {
       "vin": "5TFSX5EN2HX048821",
       "stock": "048821",
       "title": "2017 TOYOTA TACOMA ACCESS CAB",
@@ -176,7 +164,7 @@
       "title": "2018 FORD F150 SUPERCREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/076457/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-8eb752eabd6b47d6b59f39964430027f.jpg",
-      "price": 20995,
+      "price": 21890,
       "mileage": 107678,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
@@ -188,7 +176,7 @@
       "title": "2018 FORD F150 SUPERCREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/e06353/",
       "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
-      "price": 21495,
+      "price": 22390,
       "mileage": 122409,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
@@ -200,7 +188,7 @@
       "title": "2011 FORD F150 SUPERCREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/b94783/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-a0ca2ce44dfa464987674aff95e84d24.jpg",
-      "price": 21895,
+      "price": 22790,
       "mileage": 43378,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
@@ -212,7 +200,7 @@
       "title": "2015 TOYOTA TACOMA DOUBLE CAB",
       "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/189582/",
       "image": "https://imagescf.dealercenter.net/1280/960/202605-faba34342a734c2ea9c44b16385a924f.jpg",
-      "price": 21995,
+      "price": 22890,
       "mileage": 109624,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
@@ -224,7 +212,7 @@
       "title": "2019 FORD F150 SUPERCREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/c81129/",
       "image": "https://imagescf.dealercenter.net/1280/960/202605-1b63525cd18c439bb403b621c6ee6a74.jpg",
-      "price": 24795,
+      "price": 25690,
       "mileage": 72930,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
