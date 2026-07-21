@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T16:17:39.878Z",
+  "updated_at": "2026-07-21T19:06:42.422Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -104,7 +104,7 @@
       "title": "2016 GMC SIERRA 1500 CREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/gmc/sierra-1500-crew-cab/250066/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-40eff40652634e35858cd9e14b2470e2.jpg",
-      "price": 16495,
+      "price": 15995,
       "mileage": 127133,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
@@ -123,6 +123,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "1FTFX1EF5EFD02557",
+      "stock": "D02557",
+      "title": "2014 FORD F150 SUPER CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/d02557/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202606-9b83edcc501c4188bac8d3ececf5d14b.jpg",
+      "price": 18495,
+      "mileage": 59848,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "5YFEPMAE3NP303063",
       "stock": "303063",
       "title": "2022 TOYOTA COROLLA",
@@ -135,24 +147,12 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "1FTFX1EF5EFD02557",
-      "stock": "D02557",
-      "title": "2014 FORD F150 SUPER CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/d02557/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-9b83edcc501c4188bac8d3ececf5d14b.jpg",
-      "price": 18795,
-      "mileage": 59848,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
       "vin": "1FTFW1E53JKD76457",
       "stock": "076457",
       "title": "2018 FORD F150 SUPERCREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/076457/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-83c602ba44e64128a1fd1a6133899c71.jpg",
-      "price": 20995,
+      "price": 20795,
       "mileage": 107678,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
