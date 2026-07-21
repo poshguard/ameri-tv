@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T21:56:06.983Z",
+  "updated_at": "2026-07-21T01:53:41.041Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -59,18 +59,6 @@
       "price": 9995,
       "mileage": 131331,
       "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "1FTVX1EV8AKE73078",
-      "stock": "E73078",
-      "title": "2010 FORD F150 SUPER CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/e73078/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202605-01fa3ffdfd2d44fa9b0a94b6566c8a2e.jpg",
-      "price": 11795,
-      "mileage": 117735,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
