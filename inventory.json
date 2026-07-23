@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T21:59:13.984Z",
+  "updated_at": "2026-07-23T01:59:48.061Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -205,6 +205,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKBRFU9H3040475",
+      "stock": "040475",
+      "title": "2017 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/040475/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202607-326070d615e34912a2bb69435bea3d2a.jpg",
+      "price": null,
+      "mileage": 164587,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
