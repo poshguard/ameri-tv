@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T10:55:36.748Z",
+  "updated_at": "2026-07-24T19:15:03.890Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -217,6 +217,30 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "KMHLM4AG7MU164800",
+      "stock": "164800",
+      "title": "2021 HYUNDAI ELANTRA",
+      "url": "https://www.ameriautogroup.com/inventory/hyundai/elantra/164800/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 83660,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKB20U477683839",
+      "stock": "683839",
+      "title": "2007 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/683839/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 154897,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
