@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T19:15:03.890Z",
+  "updated_at": "2026-07-24T21:57:59.528Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -241,6 +241,18 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "1FT7W2B64KED21216",
+      "stock": "D21216",
+      "title": "2019 FORD F250 SUPER DUTY CREW CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f250-super-duty-crew-cab/d21216/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 124860,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     }
   ]
 }
