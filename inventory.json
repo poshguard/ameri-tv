@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T21:57:59.528Z",
+  "updated_at": "2026-07-25T01:55:17.387Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -183,6 +183,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "3TMLU4ENXFM189582",
+      "stock": "189582",
+      "title": "2015 TOYOTA TACOMA DOUBLE CAB",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/189582/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202605-faba34342a734c2ea9c44b16385a924f.jpg",
+      "price": 21495,
+      "mileage": 109624,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "1FTFW1ET3BFB94783",
       "stock": "B94783",
       "title": "2011 FORD F150 SUPERCREW CAB",
@@ -195,18 +207,6 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "3TMLU4ENXFM189582",
-      "stock": "189582",
-      "title": "2015 TOYOTA TACOMA DOUBLE CAB",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/189582/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202605-faba34342a734c2ea9c44b16385a924f.jpg",
-      "price": 21795,
-      "mileage": 109624,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
       "vin": "1FTEW1E48KFC81129",
       "stock": "C81129",
       "title": "2019 FORD F150 SUPERCREW CAB",
@@ -214,6 +214,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202605-1b63525cd18c439bb403b621c6ee6a74.jpg",
       "price": 24795,
       "mileage": 74788,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "1FT7W2B64KED21216",
+      "stock": "D21216",
+      "title": "2019 FORD F250 SUPER DUTY CREW CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f250-super-duty-crew-cab/d21216/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202607-f2a7d900b1e946148b2fcdd0b95d2868.jpg",
+      "price": 27995,
+      "mileage": 124860,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
@@ -241,18 +253,6 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
-    },
-    {
-      "vin": "1FT7W2B64KED21216",
-      "stock": "D21216",
-      "title": "2019 FORD F250 SUPER DUTY CREW CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f250-super-duty-crew-cab/d21216/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
-      "price": null,
-      "mileage": 124860,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
     }
   ]
 }
