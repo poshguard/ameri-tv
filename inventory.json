@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T18:57:20.339Z",
+  "updated_at": "2026-08-01T21:45:55.514Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -117,7 +117,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-access-cab/048821/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-a98bdbc6de474118ba58471937f26d47.jpg",
       "price": 17795,
-      "mileage": 125834,
+      "mileage": 125919,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
