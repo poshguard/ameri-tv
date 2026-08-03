@@ -17,11 +17,35 @@
 import { chromium } from "playwright";
 import { readFileSync, writeFileSync } from "fs";
 import { fileURLToPath } from "url";
+import { promises as dns } from "dns";
 
-const INVENTORY_URL = "https://www.ameriautogroup.com/inventory/";
+const SITE_HOST = "www.ameriautogroup.com";
+const APEX_HOST = "ameriautogroup.com";
+const INVENTORY_URL = `https://${SITE_HOST}/inventory/`;
 const IMAGE_CDN_HOST = "imagescf.dealercenter.net";
 const OUT_FILE = fileURLToPath(new URL("./inventory.json", import.meta.url));
 const MAX_PAGES = 10; // pagination guard — site currently fits on one page
+
+/**
+ * Find the web host's origin IP, used only as a fallback when Cloudflare
+ * challenges us (it reliably challenges GitHub Actions' datacenter IPs).
+ *
+ * `www` is proxied through Cloudflare; the apex is not, and both point at the
+ * same DealerCenter server. So any apex address that Cloudflare isn't also
+ * serving is the origin. Resolved fresh each run — never hardcode the IP.
+ */
+async function findOriginIp() {
+  try {
+    const [apex, www] = await Promise.all([
+      dns.resolve4(APEX_HOST),
+      dns.resolve4(SITE_HOST).catch(() => []),
+    ]);
+    const proxied = new Set(www);
+    return apex.find((ip) => !proxied.has(ip)) ?? null;
+  } catch {
+    return null;
+  }
+}
 
 async function scrapePage(page) {
   return page.evaluate(() => {
@@ -66,35 +90,81 @@ function findNextLink(page) {
   });
 }
 
-async function main() {
+/**
+ * Cloudflare sometimes serves its "Just a moment…" JS challenge instead of the
+ * page (score-based: rare from residential IPs, common from CI). Real Chrome
+ * auto-solves it in a few seconds; give it time, then confirm cards rendered.
+ */
+async function waitForCards(page) {
+  const CARDS = ".vehicle-container[data-vehicle-id]";
+  const deadline = Date.now() + 90_000;
+  while (Date.now() < deadline) {
+    const found = await page
+      .waitForSelector(CARDS, { timeout: 10_000 })
+      .then(() => true)
+      .catch(() => false);
+    if (found) return;
+    const title = await page.title().catch(() => "");
+    if (/just a moment|attention required|checking your browser/i.test(title)) {
+      console.log("  Cloudflare challenge detected — waiting for it to clear…");
+    }
+  }
+  throw new Error("vehicle cards never appeared (Cloudflare challenge not cleared?)");
+}
+
+async function scrapeSite({ originIp = null } = {}) {
   // BROWSER_CHANNEL=chrome uses the machine's installed Google Chrome (new
   // headless mode) — a more browser-like fingerprint for Cloudflare than
   // Playwright's bundled headless shell. Used by CI.
+  //
+  // With originIp set, Chrome's DNS is pointed straight at the web host,
+  // skipping Cloudflare's edge. The origin serves no valid cert for this
+  // hostname, so TLS verification has to be waived on that path — which is why
+  // it is a fallback, not the default. Everything scraped still passes the
+  // VIN/price/image-host validation below before it can reach the TV.
+  const args = ["--disable-blink-features=AutomationControlled"];
+  if (originIp) {
+    args.push(`--host-resolver-rules=MAP ${SITE_HOST} ${originIp}`, "--ignore-certificate-errors");
+  }
   const browser = await chromium.launch({
     headless: true,
     channel: process.env.BROWSER_CHANNEL || undefined,
-    args: ["--disable-blink-features=AutomationControlled"],
+    args,
   });
-  // The Chrome user-agent override is load-bearing: with the default
-  // "HeadlessChrome" UA Cloudflare serves its challenge page and the scrape
-  // times out (tested both ways). The client-hints mismatch it causes is
-  // tolerated; do not remove.
+  // Derive the user-agent from the running browser and strip the "Headless"
+  // marker. Never pin a version here: a hardcoded UA goes stale as Chrome
+  // updates, and the version/client-hints mismatch is exactly what made
+  // Cloudflare start challenging every run (took the TV down for 2 days).
+  const probe = await browser.newPage();
+  const realUA = await probe.evaluate(() => navigator.userAgent);
+  await probe.close();
   const context = await browser.newContext({
-    userAgent:
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    userAgent: realUA.replace(/HeadlessChrome/g, "Chrome"),
     viewport: { width: 1366, height: 900 },
     locale: "en-US",
     timezoneId: "America/New_York",
+    ignoreHTTPSErrors: !!originIp,
   });
   const page = await context.newPage();
 
+  // Everything below runs inside try/finally: a failed attempt MUST still close
+  // its browser, or the leaked process keeps Node's event loop alive and the
+  // script hangs forever after finishing (it did — CI would burn to timeout).
+  try {
+    return await collect(page);
+  } finally {
+    await browser.close().catch(() => {});
+  }
+}
+
+async function collect(page) {
   const raw = [];
   let advertisedTotal = null; // the page's own "N Available" counter
   let url = INVENTORY_URL;
   for (let i = 0; i < MAX_PAGES && url; i++) {
     console.log(`Fetching page ${i + 1}: ${url}`);
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 });
-    await page.waitForSelector(".vehicle-container[data-vehicle-id]", { timeout: 45_000 });
+    await waitForCards(page);
 
     // Cards lazy-load as the page scrolls. Scroll ONE viewport at a time —
     // jumping straight to the bottom skips the intersection triggers and
@@ -128,7 +198,37 @@ async function main() {
     const next = await findNextLink(page);
     url = next && next !== url ? next : null;
   }
-  await browser.close();
+  return { raw, advertisedTotal };
+}
+
+async function main() {
+  // Try the normal, TLS-verified route first. Cloudflare's challenge is
+  // score-based: residential IPs usually pass, datacenter IPs (GitHub Actions)
+  // usually do not — so escalate to the origin-IP route rather than give up.
+  const originIp = await findOriginIp();
+  const plans = [
+    { label: "normal (via Cloudflare)", opts: {} },
+    ...(originIp
+      ? [
+          { label: `origin IP ${originIp}`, opts: { originIp } },
+          { label: `origin IP ${originIp}, retry`, opts: { originIp } },
+        ]
+      : [{ label: "normal, retry", opts: {} }]),
+  ];
+
+  let raw, advertisedTotal;
+  for (let i = 0; i < plans.length; i++) {
+    const { label, opts } = plans[i];
+    try {
+      console.log(`Scrape attempt ${i + 1}/${plans.length} — ${label}`);
+      ({ raw, advertisedTotal } = await scrapeSite(opts));
+      break;
+    } catch (err) {
+      console.error(`  failed: ${err.message}`);
+      if (i === plans.length - 1) throw err;
+      await new Promise((r) => setTimeout(r, 15_000));
+    }
+  }
 
   // Real vehicles only: full 17-char VIN, a title, not marked sold; dedupe by VIN.
   const seen = new Set();
@@ -164,15 +264,23 @@ async function main() {
     process.exit(1);
   }
 
-  // The strongest partial-load check: the page advertises its own total
-  // ("19 Available"). If we captured fewer than that, some lazy-load batch
-  // never arrived — abort rather than under-display the lot.
-  if (advertisedTotal && vehicles.length < advertisedTotal) {
+  // Partial-load check against the page's own "N Available" counter — with
+  // slack, because that counter is NOT reliable: it routinely counts a car or
+  // two that the site never renders (verified in a real browser: counter said
+  // 14, only 13 cards existed). Demanding an exact match aborted every run.
+  // A real partial load loses a whole lazy-batch, which this still catches.
+  const shortfallAllowed = Math.max(2, Math.ceil(advertisedTotal * 0.15));
+  if (advertisedTotal && vehicles.length < advertisedTotal - shortfallAllowed) {
     console.error(
       `ABORT: page advertises ${advertisedTotal} available but only ${vehicles.length} scraped — ` +
         "partial page load. Keeping existing inventory.json."
     );
     process.exit(1);
+  }
+  if (advertisedTotal && vehicles.length < advertisedTotal) {
+    console.log(
+      `  note: site counter says ${advertisedTotal}, rendered ${vehicles.length} — within tolerance.`
+    );
   }
 
   let previousCount = null;

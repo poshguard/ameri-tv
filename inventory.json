@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01T21:45:55.514Z",
+  "updated_at": "2026-08-03T17:17:55.601Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -27,18 +27,6 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "2T3ZF4DV0AW024847",
-      "stock": "024847",
-      "title": "2010 TOYOTA RAV4",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/rav4/024847/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-81c9177ec7cf48f684d02a27f78e39d0.jpg",
-      "price": 8795,
-      "mileage": 103810,
-      "drivetrain": "2WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
       "vin": "JTDKDTB38E1569640",
       "stock": "569640",
       "title": "2014 TOYOTA PRIUS C",
@@ -56,7 +44,7 @@
       "title": "2017 TOYOTA COROLLA",
       "url": "https://www.ameriautogroup.com/inventory/toyota/corolla/926613/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-62b75976c72d4a8b86a6171ac6f3c563.jpg",
-      "price": 9695,
+      "price": 9995,
       "mileage": 131331,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -106,18 +94,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202606-40eff40652634e35858cd9e14b2470e2.jpg",
       "price": 15595,
       "mileage": 127133,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "5TFSX5EN2HX048821",
-      "stock": "048821",
-      "title": "2017 TOYOTA TACOMA ACCESS CAB",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-access-cab/048821/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-a98bdbc6de474118ba58471937f26d47.jpg",
-      "price": 17795,
-      "mileage": 125919,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
