@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T17:24:17.598Z",
+  "updated_at": "2026-08-03T19:23:21.994Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -45,7 +45,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/corolla/926613/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-62b75976c72d4a8b86a6171ac6f3c563.jpg",
       "price": 9995,
-      "mileage": 131331,
+      "mileage": 131376,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
