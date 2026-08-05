@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-08-05T01:50:01.283Z",
+  "updated_at": "2026-08-05T05:39:56.620Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
+    {
+      "vin": "JTDKB20U073237243",
+      "stock": "237243",
+      "title": "2007 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/237243/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-b1cacd16ae864e268d1bed227b4173e2.jpg",
+      "price": 3995,
+      "mileage": 205629,
+      "drivetrain": "FRONT-WHEEL DRIVE",
+      "transmission": "-",
+      "fuel": "HYBRID"
+    },
     {
       "vin": "JTDKB20U277629293",
       "stock": "629283",
