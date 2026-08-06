@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T13:45:01.721Z",
+  "updated_at": "2026-08-06T23:51:37.261Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -12,18 +12,6 @@
       "mileage": 205629,
       "drivetrain": "FRONT-WHEEL DRIVE",
       "transmission": "-",
-      "fuel": "HYBRID"
-    },
-    {
-      "vin": "JTDKB20U477683839",
-      "stock": "683839",
-      "title": "2007 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/683839/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-e8d610fb56664ac68278f528c6155ffb.jpg",
-      "price": 5495,
-      "mileage": 154940,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
     },
     {
@@ -135,6 +123,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "WBA5R7C51KAJ82216",
+      "stock": "J82216",
+      "title": "2019 BMW 3 SERIES",
+      "url": "https://www.ameriautogroup.com/inventory/bmw/3-series/j82216/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-e2c91a48ee4948cab4f60addbc20c69c.jpg",
+      "price": 19995,
+      "mileage": 93109,
+      "drivetrain": "AWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "3TMLU4ENXFM189582",
       "stock": "189582",
       "title": "2015 TOYOTA TACOMA DOUBLE CAB",
@@ -169,6 +169,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKN3DU8C5480059",
+      "stock": "480059",
+      "title": "2012 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/480059/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 133496,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
