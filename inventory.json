@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T18:42:36.860Z",
+  "updated_at": "2026-08-07T21:30:43.368Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -165,7 +165,7 @@
       "url": "https://www.ameriautogroup.com/inventory/ford/f250-super-duty-crew-cab/d21216/",
       "image": "https://imagescf.dealercenter.net/1280/960/202607-f2a7d900b1e946148b2fcdd0b95d2868.jpg",
       "price": 27995,
-      "mileage": 124860,
+      "mileage": 124885,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
