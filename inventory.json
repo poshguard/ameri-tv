@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T18:44:10.490Z",
+  "updated_at": "2026-08-10T21:33:33.507Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -154,6 +154,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
       "price": 21495,
       "mileage": 122409,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "5TFUX4EN6CX010438",
+      "stock": "010438",
+      "title": "2012 TOYOTA TACOMA ACCESS CAB",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-access-cab/010438/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-e59a183e43b7416a8febfa927c0792f9.jpg",
+      "price": 23995,
+      "mileage": 38955,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
