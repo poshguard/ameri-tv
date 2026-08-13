@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T21:37:01.979Z",
+  "updated_at": "2026-08-13T01:14:01.190Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -22,18 +22,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202607-f206f0d49b00459cac4f29c18aebf619.jpg",
       "price": 5995,
       "mileage": 136132,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
-    },
-    {
-      "vin": "JTDKN3DU8C5480059",
-      "stock": "480059",
-      "title": "2012 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/480059/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-69e3290a42af4a9e86801b7318962a14.jpg",
-      "price": 8295,
-      "mileage": 133496,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
@@ -81,7 +69,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/rav4/021502/",
       "image": "https://imagescf.dealercenter.net/1280/960/202607-54a82a4fa962470fb4a1956aa38c733c.jpg",
       "price": 12895,
-      "mileage": 116325,
+      "mileage": 116431,
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
