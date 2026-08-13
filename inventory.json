@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T15:51:58.311Z",
+  "updated_at": "2026-08-13T18:52:01.067Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -154,6 +154,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202608-1d25d8e2c5e24ec5a57b8b7f9400d3ae.jpg",
       "price": 24890,
       "mileage": 38955,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "1FTFW1EV8AFB66185",
+      "stock": "B66185",
+      "title": "2010 FORD F150 SUPERCREW CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/b66185/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 120552,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
