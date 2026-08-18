@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T09:23:44.448Z",
+  "updated_at": "2026-08-18T12:28:10.976Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -142,18 +142,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202605-faba34342a734c2ea9c44b16385a924f.jpg",
       "price": 20495,
       "mileage": 109624,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "1FTEW1E55JFE06353",
-      "stock": "E06353",
-      "title": "2018 FORD F150 SUPERCREW CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/e06353/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
-      "price": 21495,
-      "mileage": 122409,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
