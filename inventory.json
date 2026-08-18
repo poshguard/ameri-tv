@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T15:23:01.109Z",
+  "updated_at": "2026-08-18T18:24:30.799Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -159,13 +159,13 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "JTDKB20U287737267",
-      "stock": "737267",
-      "title": "2008 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/737267/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "vin": "JTDKN3DU3C1515002",
+      "stock": "515002",
+      "title": "2012 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/515002/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-a412df21e8eb457a812b306cfd9eb8d7.jpg",
       "price": null,
-      "mileage": 113291,
+      "mileage": 135486,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
