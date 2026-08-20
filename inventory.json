@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T03:39:54.749Z",
+  "updated_at": "2026-08-20T06:30:40.623Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -251,18 +251,6 @@
       "price": 21495,
       "mileage": 122409,
       "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "5UX33EX00S9004201",
-      "stock": "004201",
-      "title": "2025 BMW X6",
-      "url": "https://www.ameriautogroup.com/inventory/bmw/x6/004201/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-73c999c2969c453387f271fad1c19aff.jpg",
-      "price": 84995,
-      "mileage": 11280,
-      "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     }
