@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T15:24:42.099Z",
+  "updated_at": "2026-08-21T18:24:24.268Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -11,7 +11,7 @@
       "price": 3995,
       "mileage": 205629,
       "drivetrain": "FRONT-WHEEL DRIVE",
-      "transmission": "-",
+      "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
     },
     {
@@ -119,18 +119,6 @@
       "price": 12895,
       "mileage": 116431,
       "drivetrain": "AWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "KMHLM4AG7MU164800",
-      "stock": "164800",
-      "title": "2021 HYUNDAI ELANTRA",
-      "url": "https://www.ameriautogroup.com/inventory/hyundai/elantra/164800/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202607-2ef8efcfe5dc4bdc9efd95bff85b4639.jpg",
-      "price": 13495,
-      "mileage": 83995,
-      "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
