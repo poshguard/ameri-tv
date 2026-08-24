@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T15:31:36.585Z",
+  "updated_at": "2026-08-24T18:27:35.917Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -58,6 +58,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202608-a412df21e8eb457a812b306cfd9eb8d7.jpg",
       "price": 8795,
       "mileage": 135486,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
+    },
+    {
+      "vin": "JTDKB20U677561855",
+      "stock": "561855",
+      "title": "2007 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/561855/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-517428feb0ef4d4aaa41e35c90742cd8.jpg",
+      "price": 8995,
+      "mileage": 30320,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
@@ -181,18 +193,6 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
-    },
-    {
-      "vin": "JTDKB20U677561855",
-      "stock": "561855",
-      "title": "2007 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/561855/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-517428feb0ef4d4aaa41e35c90742cd8.jpg",
-      "price": null,
-      "mileage": 30320,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
     }
   ]
 }
