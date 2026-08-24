@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T03:46:35.860Z",
+  "updated_at": "2026-08-24T06:39:19.763Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -143,42 +143,6 @@
       "price": 17995,
       "mileage": 43587,
       "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "WBA5R7C51KAJ82216",
-      "stock": "J82216",
-      "title": "2019 BMW 3 SERIES",
-      "url": "https://www.ameriautogroup.com/inventory/bmw/3-series/j82216/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-e2c91a48ee4948cab4f60addbc20c69c.jpg",
-      "price": 18795,
-      "mileage": 93109,
-      "drivetrain": "AWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "3TMLU4ENXFM189582",
-      "stock": "189582",
-      "title": "2015 TOYOTA TACOMA DOUBLE CAB",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/189582/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202605-faba34342a734c2ea9c44b16385a924f.jpg",
-      "price": 20495,
-      "mileage": 109624,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "1FTEW1E55JFE06353",
-      "stock": "E06353",
-      "title": "2018 FORD F150 SUPERCREW CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/e06353/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
-      "price": 21495,
-      "mileage": 122409,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
