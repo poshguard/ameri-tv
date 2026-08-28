@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T14:44:56.267Z",
+  "updated_at": "2026-08-28T23:47:24.799Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -166,6 +166,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
       "price": 21495,
       "mileage": 122409,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "1FTFW1E40KFC94901",
+      "stock": "C94901",
+      "title": "2019 FORD F150 SUPERCREW CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/c94901/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 95151,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
