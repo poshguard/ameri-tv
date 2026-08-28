@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T00:10:30.796Z",
+  "updated_at": "2026-08-28T14:44:56.267Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -22,18 +22,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202607-f206f0d49b00459cac4f29c18aebf619.jpg",
       "price": 5995,
       "mileage": 136132,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
-    },
-    {
-      "vin": "JTDKDTB38E1569640",
-      "stock": "569640",
-      "title": "2014 TOYOTA PRIUS C",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius-c/569640/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202607-434fad239c5a4bbbb3dfc94d988531be.jpg",
-      "price": 8495,
-      "mileage": 117556,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
@@ -155,6 +143,18 @@
       "price": 18795,
       "mileage": 93109,
       "drivetrain": "AWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "3TMLU4ENXFM189582",
+      "stock": "189582",
+      "title": "2015 TOYOTA TACOMA DOUBLE CAB",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/189582/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202605-faba34342a734c2ea9c44b16385a924f.jpg",
+      "price": 20495,
+      "mileage": 109624,
+      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
