@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T18:03:36.947Z",
+  "updated_at": "2026-08-29T22:56:25.487Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -99,6 +99,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "2G1FC1E32E9313499",
+      "stock": "313499",
+      "title": "2014 CHEVROLET CAMARO",
+      "url": "https://www.ameriautogroup.com/inventory/chevrolet/camaro/313499/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-b4fa1d9cdf374d5f945cb382016860c4.jpg",
+      "price": 14495,
+      "mileage": 117117,
+      "drivetrain": "RWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "3GTU2LEC9GG250066",
       "stock": "250066",
       "title": "2016 GMC SIERRA 1500 CREW CAB",
@@ -176,7 +188,7 @@
       "title": "2019 FORD F150 SUPERCREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/c94901/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-d0b1406e75784366a0ea0062a48205e1.jpg",
-      "price": null,
+      "price": 25995,
       "mileage": 95151,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
