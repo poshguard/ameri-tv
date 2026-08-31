@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T09:07:03.989Z",
+  "updated_at": "2026-08-31T18:30:33.570Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -193,6 +193,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKDTB33C1524263",
+      "stock": "524263",
+      "title": "2012 TOYOTA PRIUS C",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius-c/524263/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 76157,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
