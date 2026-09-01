@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T00:15:05.654Z",
+  "updated_at": "2026-09-01T08:09:28.372Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -61,6 +61,18 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "1FTPX14V59FA89001",
+      "stock": "A89001",
+      "title": "2009 FORD F150 SUPER CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/a89001/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-f00c34d8165f4d9e819e0a9bc20c1501.jpg",
+      "price": 10995,
+      "mileage": 117884,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     },
     {
       "vin": "1FTFX1EF2EFC65516",
@@ -187,7 +199,7 @@
       "stock": "88889",
       "title": "2010 TOYOTA TACOMA DOUBLE CAB",
       "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/88889/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202609-57bc251da8ac4328b810638c5ba02b56.jpg",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-0e71d55dcdd44ef1ad4f8c558eb055ae.jpg",
       "price": 19995,
       "mileage": 101884,
       "drivetrain": "4WD",
@@ -231,24 +243,12 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "1FTPX14V59FA89001",
-      "stock": "A89001",
-      "title": "2009 FORD F150 SUPER CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/a89001/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
-      "price": null,
-      "mileage": 117884,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
       "vin": "3TMLU4EN8DM124307",
       "stock": "124307",
       "title": "2013 TOYOTA TACOMA DOUBLE CAB",
       "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/124307/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-0a2571d50d9343589bae457b382f4a16.jpg",
-      "price": null,
+      "price": 25995,
       "mileage": 40481,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
