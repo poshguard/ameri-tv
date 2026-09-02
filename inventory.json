@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T13:07:00.942Z",
+  "updated_at": "2026-09-02T18:16:27.956Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -111,6 +111,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "2G1FC1E32E9313499",
+      "stock": "313499",
+      "title": "2014 CHEVROLET CAMARO",
+      "url": "https://www.ameriautogroup.com/inventory/chevrolet/camaro/313499/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-b4fa1d9cdf374d5f945cb382016860c4.jpg",
+      "price": 13995,
+      "mileage": 117117,
+      "drivetrain": "RWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "1FTFW1EV8AFB66185",
       "stock": "B66185",
       "title": "2010 FORD F150 SUPERCREW CAB",
@@ -119,18 +131,6 @@
       "price": 13995,
       "mileage": 120552,
       "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "2G1FC1E32E9313499",
-      "stock": "313499",
-      "title": "2014 CHEVROLET CAMARO",
-      "url": "https://www.ameriautogroup.com/inventory/chevrolet/camaro/313499/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-b4fa1d9cdf374d5f945cb382016860c4.jpg",
-      "price": 14495,
-      "mileage": 117117,
-      "drivetrain": "RWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
@@ -188,7 +188,7 @@
       "title": "2019 BMW 3 SERIES",
       "url": "https://www.ameriautogroup.com/inventory/bmw/3-series/j82216/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-e2c91a48ee4948cab4f60addbc20c69c.jpg",
-      "price": 18795,
+      "price": 18495,
       "mileage": 93109,
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
@@ -231,6 +231,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "3TMLU4EN8DM124307",
+      "stock": "124307",
+      "title": "2013 TOYOTA TACOMA DOUBLE CAB",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/124307/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-0a2571d50d9343589bae457b382f4a16.jpg",
+      "price": 25495,
+      "mileage": 40481,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "1FTFW1E40KFC94901",
       "stock": "C94901",
       "title": "2019 FORD F150 SUPERCREW CAB",
@@ -238,18 +250,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202608-d0b1406e75784366a0ea0062a48205e1.jpg",
       "price": 25995,
       "mileage": 95151,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "3TMLU4EN8DM124307",
-      "stock": "124307",
-      "title": "2013 TOYOTA TACOMA DOUBLE CAB",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/124307/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202609-0a2571d50d9343589bae457b382f4a16.jpg",
-      "price": 25995,
-      "mileage": 40481,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
