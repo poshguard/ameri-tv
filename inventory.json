@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T18:15:57.421Z",
+  "updated_at": "2026-09-03T22:55:35.001Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -253,6 +253,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKN3DUXD1631234",
+      "stock": "631234",
+      "title": "2013 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/631234/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 128504,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
