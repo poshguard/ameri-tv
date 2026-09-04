@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T17:55:38.807Z",
+  "updated_at": "2026-09-04T20:07:06.666Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -8,11 +8,23 @@
       "title": "2007 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/237243/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-b1cacd16ae864e268d1bed227b4173e2.jpg",
-      "price": 3995,
+      "price": 3795,
       "mileage": 205629,
       "drivetrain": "FRONT-WHEEL DRIVE",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "JHMES966X5S003465",
+      "stock": "003465",
+      "title": "2005 HONDA CIVIC",
+      "url": "https://www.ameriautogroup.com/inventory/honda/civic/003465/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-eaebc46a98044d3488d1e775ec4d26b8.jpg",
+      "price": 4995,
+      "mileage": 139900,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     },
     {
       "vin": "JTDKB20U277629293",
@@ -44,7 +56,7 @@
       "title": "2013 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/631234/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-46d0ae2920404f0a92010a9deae677f5.jpg",
-      "price": 9495,
+      "price": 8995,
       "mileage": 128504,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -123,6 +135,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "1FTFW1EV8AFB66185",
+      "stock": "B66185",
+      "title": "2010 FORD F150 SUPERCREW CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/b66185/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-65c0beb8c63448bca2a75c964f9446cb.jpg",
+      "price": 12995,
+      "mileage": 120552,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "2G1FC1E32E9313499",
       "stock": "313499",
       "title": "2014 CHEVROLET CAMARO",
@@ -131,18 +155,6 @@
       "price": 13995,
       "mileage": 117117,
       "drivetrain": "RWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "1FTFW1EV8AFB66185",
-      "stock": "B66185",
-      "title": "2010 FORD F150 SUPERCREW CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/b66185/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-65c0beb8c63448bca2a75c964f9446cb.jpg",
-      "price": 13995,
-      "mileage": 120552,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
