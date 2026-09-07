@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:56:38.811Z",
+  "updated_at": "2026-09-07T23:11:58.184Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -265,6 +265,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKN3DU9E1813864",
+      "stock": "813864",
+      "title": "2014 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/813864/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 163357,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
