@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T18:12:32.766Z",
+  "updated_at": "2026-09-08T23:04:52.951Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -58,6 +58,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202609-46d0ae2920404f0a92010a9deae677f5.jpg",
       "price": 8995,
       "mileage": 128504,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
+    },
+    {
+      "vin": "JTDKN3DU9E1813864",
+      "stock": "813864",
+      "title": "2014 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/813864/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-e2cc9fa27e5740d9a848f69d38e21c23.jpg",
+      "price": 9295,
+      "mileage": 163357,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
@@ -188,7 +200,7 @@
       "title": "2020 TOYOTA PRIUS PRIME",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius-prime/160072/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-ead8902371a74223b2f8446a3807fa6d.jpg",
-      "price": 17995,
+      "price": 17695,
       "mileage": 105556,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -203,18 +215,6 @@
       "price": 18495,
       "mileage": 93109,
       "drivetrain": "AWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "5TELU4EN6AZ688889",
-      "stock": "88889",
-      "title": "2010 TOYOTA TACOMA DOUBLE CAB",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/88889/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202609-0e71d55dcdd44ef1ad4f8c558eb055ae.jpg",
-      "price": 19995,
-      "mileage": 101931,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
@@ -265,18 +265,6 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
-    },
-    {
-      "vin": "JTDKN3DU9E1813864",
-      "stock": "813864",
-      "title": "2014 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/813864/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
-      "price": null,
-      "mileage": 163357,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
     }
   ]
 }
