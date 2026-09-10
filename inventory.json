@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T13:14:53.209Z",
+  "updated_at": "2026-09-10T17:58:10.573Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -68,7 +68,7 @@
       "title": "2014 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/813864/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-e2cc9fa27e5740d9a848f69d38e21c23.jpg",
-      "price": 9295,
+      "price": 8995,
       "mileage": 163357,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -177,7 +177,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/corolla/303063/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-79405d9f6e46465ea691069ea876a55a.jpg",
       "price": 16995,
-      "mileage": 43587,
+      "mileage": 44342,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
