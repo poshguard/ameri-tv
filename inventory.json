@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T17:58:10.573Z",
+  "updated_at": "2026-09-10T20:27:09.552Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -171,18 +171,6 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "5YFEPMAE3NP303063",
-      "stock": "303063",
-      "title": "2022 TOYOTA COROLLA",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/corolla/303063/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-79405d9f6e46465ea691069ea876a55a.jpg",
-      "price": 16995,
-      "mileage": 44342,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
       "vin": "1FTFX1EF5EFD02557",
       "stock": "D02557",
       "title": "2014 FORD F150 SUPER CAB",
@@ -236,7 +224,7 @@
       "title": "2018 FORD F150 SUPERCREW CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/e06353/",
       "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
-      "price": 21495,
+      "price": 20995,
       "mileage": 122409,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
