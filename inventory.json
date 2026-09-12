@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T19:57:25.466Z",
+  "updated_at": "2026-09-12T22:44:24.445Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -181,6 +181,18 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "3GKALVEV8NL171221",
+      "stock": "171221",
+      "title": "2022 GMC TERRAIN",
+      "url": "https://www.ameriautogroup.com/inventory/gmc/terrain/171221/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-2783af2e9eb74fa08eca9cb19748bc0f.jpg",
+      "price": 17995,
+      "mileage": 115834,
+      "drivetrain": "AWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     },
     {
       "vin": "WBA5R7C51KAJ82216",
