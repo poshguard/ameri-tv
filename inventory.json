@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T12:32:04.035Z",
+  "updated_at": "2026-09-12T17:33:45.360Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -140,7 +140,7 @@
       "title": "2014 CHEVROLET CAMARO",
       "url": "https://www.ameriautogroup.com/inventory/chevrolet/camaro/313499/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-b4fa1d9cdf374d5f945cb382016860c4.jpg",
-      "price": 13695,
+      "price": 13495,
       "mileage": 117117,
       "drivetrain": "RWD",
       "transmission": "AUTOMATIC",
@@ -176,7 +176,7 @@
       "title": "2020 TOYOTA PRIUS PRIME",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius-prime/160072/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-ead8902371a74223b2f8446a3807fa6d.jpg",
-      "price": 17695,
+      "price": 17595,
       "mileage": 105556,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -188,7 +188,7 @@
       "title": "2019 BMW 3 SERIES",
       "url": "https://www.ameriautogroup.com/inventory/bmw/3-series/j82216/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-e2c91a48ee4948cab4f60addbc20c69c.jpg",
-      "price": 18495,
+      "price": 18295,
       "mileage": 93109,
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
@@ -224,7 +224,7 @@
       "title": "2013 TOYOTA TACOMA DOUBLE CAB",
       "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/124307/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-0a2571d50d9343589bae457b382f4a16.jpg",
-      "price": 24995,
+      "price": 24795,
       "mileage": 40481,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
