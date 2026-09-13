@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T22:44:24.445Z",
+  "updated_at": "2026-09-13T02:18:54.150Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -22,6 +22,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202609-eaebc46a98044d3488d1e775ec4d26b8.jpg",
       "price": 5595,
       "mileage": 139900,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDBT4K35CL017541",
+      "stock": "017541",
+      "title": "2012 TOYOTA YARIS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/yaris/017541/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-32f270caeb174bd2ade7993774706f83.jpg",
+      "price": 6995,
+      "mileage": 130707,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
