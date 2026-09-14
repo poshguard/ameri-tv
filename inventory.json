@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T08:22:05.111Z",
+  "updated_at": "2026-09-14T15:29:50.531Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -37,6 +37,18 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKB20U287737267",
+      "stock": "737267",
+      "title": "2008 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/737267/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-ed81e9d61ea24ff9a7ae466861210e7c.jpg",
+      "price": 7995,
+      "mileage": 114316,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     },
     {
       "vin": "4T3BA3BB5BU019745",
