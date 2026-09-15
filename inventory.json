@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T21:13:05.154Z",
+  "updated_at": "2026-09-15T02:39:43.624Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -141,7 +141,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/rav4/021502/",
       "image": "https://imagescf.dealercenter.net/1280/960/202607-54a82a4fa962470fb4a1956aa38c733c.jpg",
       "price": 12895,
-      "mileage": 116431,
+      "mileage": 116457,
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
