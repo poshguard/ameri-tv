@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T23:17:48.919Z",
+  "updated_at": "2026-09-18T02:25:55.515Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -85,6 +85,18 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "KL7CJLSB1LB046520",
+      "stock": "046520",
+      "title": "2020 CHEVROLET TRAX",
+      "url": "https://www.ameriautogroup.com/inventory/chevrolet/trax/046520/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-bc277e08df6a4ac88030c9a64cd4782d.jpg",
+      "price": 9995,
+      "mileage": 51009,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     },
     {
       "vin": "1FTPX14V59FA89001",
@@ -259,7 +271,7 @@
       "stock": "584836",
       "title": "2007 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/584836/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-a69674dac39b4743b97dd0741241c0f4.jpg",
       "price": null,
       "mileage": 68687,
       "drivetrain": "FWD",
