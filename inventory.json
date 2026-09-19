@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T22:55:43.879Z",
+  "updated_at": "2026-09-19T02:25:41.411Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -159,6 +159,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "5TEUU42N77Z462104",
+      "stock": "462104",
+      "title": "2007 TOYOTA TACOMA ACCESS CAB",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-access-cab/462104/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-d1c21e4c7f4e4dadb3bd4628836a9ee1.jpg",
+      "price": 14695,
+      "mileage": 135056,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "3GTU2LEC9GG250066",
       "stock": "250066",
       "title": "2016 GMC SIERRA 1500 CREW CAB",
@@ -277,18 +289,6 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
-    },
-    {
-      "vin": "5TEUU42N77Z462104",
-      "stock": "462104",
-      "title": "2007 TOYOTA TACOMA ACCESS CAB",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-access-cab/462104/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202609-d1c21e4c7f4e4dadb3bd4628836a9ee1.jpg",
-      "price": null,
-      "mileage": 135056,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
     }
   ]
 }
