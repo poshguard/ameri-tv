@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T17:36:39.527Z",
+  "updated_at": "2026-09-19T19:48:29.997Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -203,18 +203,6 @@
       "price": 15995,
       "mileage": 115834,
       "drivetrain": "AWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "1FTFX1EF5EFD02557",
-      "stock": "D02557",
-      "title": "2014 FORD F150 SUPER CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/d02557/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-9b83edcc501c4188bac8d3ececf5d14b.jpg",
-      "price": 16995,
-      "mileage": 59848,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
