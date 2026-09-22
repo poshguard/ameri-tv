@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T13:48:04.218Z",
+  "updated_at": "2026-09-22T18:25:59.583Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -80,7 +80,7 @@
       "title": "2014 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/813864/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-e2cc9fa27e5740d9a848f69d38e21c23.jpg",
-      "price": 8995,
+      "price": 8795,
       "mileage": 163357,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -227,18 +227,6 @@
       "price": 17995,
       "mileage": 93109,
       "drivetrain": "AWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "3TMLU4ENXFM189582",
-      "stock": "189582",
-      "title": "2015 TOYOTA TACOMA DOUBLE CAB",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-double-cab/189582/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202605-faba34342a734c2ea9c44b16385a924f.jpg",
-      "price": 20495,
-      "mileage": 109624,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
