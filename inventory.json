@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T18:25:59.583Z",
+  "updated_at": "2026-09-22T23:23:45.600Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -171,6 +171,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "3GTU2LEC9GG250066",
+      "stock": "250066",
+      "title": "2016 GMC SIERRA 1500 CREW CAB",
+      "url": "https://www.ameriautogroup.com/inventory/gmc/sierra-1500-crew-cab/250066/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202606-40eff40652634e35858cd9e14b2470e2.jpg",
+      "price": 14495,
+      "mileage": 127133,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "5TEUU42N77Z462104",
       "stock": "462104",
       "title": "2007 TOYOTA TACOMA ACCESS CAB",
@@ -178,18 +190,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202609-d1c21e4c7f4e4dadb3bd4628836a9ee1.jpg",
       "price": 14695,
       "mileage": 135056,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "3GTU2LEC9GG250066",
-      "stock": "250066",
-      "title": "2016 GMC SIERRA 1500 CREW CAB",
-      "url": "https://www.ameriautogroup.com/inventory/gmc/sierra-1500-crew-cab/250066/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-40eff40652634e35858cd9e14b2470e2.jpg",
-      "price": 14995,
-      "mileage": 127133,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
@@ -212,7 +212,7 @@
       "title": "2020 TOYOTA PRIUS PRIME",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius-prime/160072/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-ead8902371a74223b2f8446a3807fa6d.jpg",
-      "price": 17595,
+      "price": 16995,
       "mileage": 105556,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
