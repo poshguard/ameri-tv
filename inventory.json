@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T19:03:19.071Z",
+  "updated_at": "2026-09-25T23:43:27.972Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -49,6 +49,18 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "4T1BE46K89U868369",
+      "stock": "868369",
+      "title": "2009 TOYOTA CAMRY",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/camry/868369/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202609-fbc85b0fd7014ffd84cd7919d342a9fd.jpg",
+      "price": 7995,
+      "mileage": 108188,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     },
     {
       "vin": "4T3BA3BB5BU019745",
