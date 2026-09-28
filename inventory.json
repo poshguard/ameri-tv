@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T09:12:27.368Z",
+  "updated_at": "2026-09-28T19:00:49.125Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -117,7 +117,7 @@
       "url": "https://www.ameriautogroup.com/inventory/chevrolet/trax/046520/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-bc277e08df6a4ac88030c9a64cd4782d.jpg",
       "price": 9995,
-      "mileage": 51009,
+      "mileage": 51031,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
