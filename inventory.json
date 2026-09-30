@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T11:38:54.815Z",
+  "updated_at": "2026-09-30T17:20:58.196Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -155,18 +155,6 @@
       "price": 12995,
       "mileage": 117117,
       "drivetrain": "RWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "3GTU2LEC9GG250066",
-      "stock": "250066",
-      "title": "2016 GMC SIERRA 1500 CREW CAB",
-      "url": "https://www.ameriautogroup.com/inventory/gmc/sierra-1500-crew-cab/250066/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-40eff40652634e35858cd9e14b2470e2.jpg",
-      "price": 14495,
-      "mileage": 127191,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
