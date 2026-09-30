@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T21:41:55.908Z",
+  "updated_at": "2026-09-30T03:12:13.908Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -37,18 +37,6 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
-    },
-    {
-      "vin": "JTDKB20U777584836",
-      "stock": "584836",
-      "title": "2007 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/584836/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202609-a69674dac39b4743b97dd0741241c0f4.jpg",
-      "price": 7995,
-      "mileage": 68687,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
     },
     {
       "vin": "4T1BE46K89U868369",
@@ -177,7 +165,7 @@
       "url": "https://www.ameriautogroup.com/inventory/gmc/sierra-1500-crew-cab/250066/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-40eff40652634e35858cd9e14b2470e2.jpg",
       "price": 14495,
-      "mileage": 127133,
+      "mileage": 127191,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
