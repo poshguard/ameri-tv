@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T21:44:11.510Z",
+  "updated_at": "2026-10-01T03:19:24.465Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -226,6 +226,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202609-eae226e0a6394ba097ccff7442d1c314.jpg",
       "price": 25995,
       "mileage": 95151,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTEBU11F670067164",
+      "stock": "067164",
+      "title": "2007 TOYOTA FJ CRUISER",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/fj-cruiser/067164/",
+      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "price": null,
+      "mileage": 131084,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
