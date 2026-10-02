@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T00:23:46.966Z",
+  "updated_at": "2026-10-02T09:11:57.411Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -214,6 +214,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
       "price": 20995,
       "mileage": 122409,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "5TFSZ5AN5HX050370",
+      "stock": "050370",
+      "title": "2017 TOYOTA TACOMA ACCESS CAB",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-access-cab/050370/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-5f98d5f47c40472f87262244e629d8df.jpg",
+      "price": 21995,
+      "mileage": 120502,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
