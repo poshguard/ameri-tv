@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T21:39:57.602Z",
+  "updated_at": "2026-10-03T03:06:56.849Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -61,18 +61,6 @@
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
-    },
-    {
-      "vin": "JTDKN3DUXD1631234",
-      "stock": "631234",
-      "title": "2013 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/631234/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202609-46d0ae2920404f0a92010a9deae677f5.jpg",
-      "price": 8795,
-      "mileage": 128504,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
     },
     {
       "vin": "JTDKDTB33C1524263",
@@ -152,7 +140,7 @@
       "title": "2007 TOYOTA TACOMA ACCESS CAB",
       "url": "https://www.ameriautogroup.com/inventory/toyota/tacoma-access-cab/462104/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-d1c21e4c7f4e4dadb3bd4628836a9ee1.jpg",
-      "price": 14695,
+      "price": 14495,
       "mileage": 135056,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
