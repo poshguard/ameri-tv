@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T03:16:40.380Z",
+  "updated_at": "2026-10-05T21:44:44.400Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -10,6 +10,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202609-eaebc46a98044d3488d1e775ec4d26b8.jpg",
       "price": 5695,
       "mileage": 139900,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "1HGFA16517L116754",
+      "stock": "116754",
+      "title": "2007 HONDA CIVIC",
+      "url": "https://www.ameriautogroup.com/inventory/honda/civic/116754/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-4f1c9dfef9584ae68ba892027900f712.jpg",
+      "price": 5995,
+      "mileage": 141558,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
@@ -73,6 +85,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKDTB33C1026452",
+      "stock": "026452",
+      "title": "2012 TOYOTA PRIUS C",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius-c/026452/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-03a5031a55ae45d09310cb23adfe06d0.jpg",
+      "price": 11495,
+      "mileage": 62662,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     },
     {
       "vin": "1FTFX1EF2EFC65516",
@@ -142,6 +166,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202609-2783af2e9eb74fa08eca9cb19748bc0f.jpg",
       "price": 14695,
       "mileage": 115834,
+      "drivetrain": "AWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "5TDDK3DC6FS105603",
+      "stock": "105603",
+      "title": "2015 TOYOTA SIENNA",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/sienna/105603/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-e5f0c6f72d074b268a4664b56709b3f1.jpg",
+      "price": 15295,
+      "mileage": 160808,
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
@@ -219,26 +255,14 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "1HGFA16517L116754",
-      "stock": "116754",
-      "title": "2007 HONDA CIVIC",
-      "url": "https://www.ameriautogroup.com/inventory/honda/civic/116754/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "vin": "1FTFW1EV3AFD64124",
+      "stock": "D64124",
+      "title": "2010 FORD F150 SUPERCREW CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/d64124/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-86ea0602d2d34874aba0e20ab8db1047.jpg",
       "price": null,
-      "mileage": 141558,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "5TDDK3DC6FS105603",
-      "stock": "105603",
-      "title": "2015 TOYOTA SIENNA",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/sienna/105603/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
-      "price": null,
-      "mileage": 160808,
-      "drivetrain": "AWD",
+      "mileage": 125455,
+      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     }
