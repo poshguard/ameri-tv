@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T18:12:06.374Z",
+  "updated_at": "2026-10-08T00:37:18.693Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -263,6 +263,18 @@
       "price": 25495,
       "mileage": 95235,
       "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "1GCPCPEX8AZ211237",
+      "stock": "211237",
+      "title": "2010 CHEVROLET SILVERADO 1500 REGULAR CAB",
+      "url": "https://www.ameriautogroup.com/inventory/chevrolet/silverado-1500-regular-cab/211237/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-1492da1e3ebd4d02b78cc9aff134b046.jpg",
+      "price": null,
+      "mileage": 86085,
+      "drivetrain": "2WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     }
