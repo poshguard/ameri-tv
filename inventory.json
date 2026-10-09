@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T00:52:42.661Z",
+  "updated_at": "2026-10-09T17:48:17.815Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -8,7 +8,7 @@
       "title": "2005 HONDA CIVIC",
       "url": "https://www.ameriautogroup.com/inventory/honda/civic/003465/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-eaebc46a98044d3488d1e775ec4d26b8.jpg",
-      "price": 5695,
+      "price": 5645,
       "mileage": 139900,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -44,7 +44,7 @@
       "title": "2009 TOYOTA CAMRY",
       "url": "https://www.ameriautogroup.com/inventory/toyota/camry/868369/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-fbc85b0fd7014ffd84cd7919d342a9fd.jpg",
-      "price": 7995,
+      "price": 7945,
       "mileage": 108188,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -171,18 +171,6 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "3GKALVEV8NL171221",
-      "stock": "171221",
-      "title": "2022 GMC TERRAIN",
-      "url": "https://www.ameriautogroup.com/inventory/gmc/terrain/171221/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202609-2783af2e9eb74fa08eca9cb19748bc0f.jpg",
-      "price": 14295,
-      "mileage": 115834,
-      "drivetrain": "AWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
       "vin": "5TEUU42N77Z462104",
       "stock": "462104",
       "title": "2007 TOYOTA TACOMA ACCESS CAB",
@@ -200,7 +188,7 @@
       "title": "2015 TOYOTA SIENNA",
       "url": "https://www.ameriautogroup.com/inventory/toyota/sienna/105603/",
       "image": "https://imagescf.dealercenter.net/1280/960/202610-e5f0c6f72d074b268a4664b56709b3f1.jpg",
-      "price": 15295,
+      "price": 14995,
       "mileage": 160808,
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
@@ -265,6 +253,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDACAAU8R3026117",
+      "stock": "026117",
+      "title": "2024 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/026117/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202606-e400ddbdc1814967821dfeb76532547e.jpg",
+      "price": 23995,
+      "mileage": 44286,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     },
     {
       "vin": "1FTFW1E40KFC94901",
