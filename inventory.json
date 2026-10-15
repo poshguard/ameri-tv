@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T19:07:28.429Z",
+  "updated_at": "2026-10-15T02:33:30.804Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -20,7 +20,7 @@
       "title": "2005 HONDA CIVIC",
       "url": "https://www.ameriautogroup.com/inventory/honda/civic/003465/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-eaebc46a98044d3488d1e775ec4d26b8.jpg",
-      "price": 5495,
+      "price": 5295,
       "mileage": 139900,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -104,7 +104,7 @@
       "title": "2009 FORD F150 SUPER CAB",
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/a89001/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-f00c34d8165f4d9e819e0a9bc20c1501.jpg",
-      "price": 10795,
+      "price": 10495,
       "mileage": 117884,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
@@ -147,6 +147,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "2G1FC1E32E9313499",
+      "stock": "313499",
+      "title": "2014 CHEVROLET CAMARO",
+      "url": "https://www.ameriautogroup.com/inventory/chevrolet/camaro/313499/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202608-b4fa1d9cdf374d5f945cb382016860c4.jpg",
+      "price": 12495,
+      "mileage": 117117,
+      "drivetrain": "RWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "1FTFW1EV8AFB66185",
       "stock": "B66185",
       "title": "2010 FORD F150 SUPERCREW CAB",
@@ -155,18 +167,6 @@
       "price": 12495,
       "mileage": 120552,
       "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "2G1FC1E32E9313499",
-      "stock": "313499",
-      "title": "2014 CHEVROLET CAMARO",
-      "url": "https://www.ameriautogroup.com/inventory/chevrolet/camaro/313499/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-b4fa1d9cdf374d5f945cb382016860c4.jpg",
-      "price": 12795,
-      "mileage": 117117,
-      "drivetrain": "RWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
@@ -236,7 +236,7 @@
       "title": "2007 TOYOTA FJ CRUISER",
       "url": "https://www.ameriautogroup.com/inventory/toyota/fj-cruiser/067164/",
       "image": "https://imagescf.dealercenter.net/1280/960/202610-58aa76858dc54dc2ae53dd69fa052cc3.jpg",
-      "price": 16995,
+      "price": 16495,
       "mileage": 131084,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
@@ -284,7 +284,7 @@
       "title": "2024 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/026117/",
       "image": "https://imagescf.dealercenter.net/1280/960/202606-e400ddbdc1814967821dfeb76532547e.jpg",
-      "price": 23995,
+      "price": 23495,
       "mileage": 44286,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
