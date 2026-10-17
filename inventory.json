@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T17:41:24.317Z",
+  "updated_at": "2026-10-17T19:55:38.183Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -9,7 +9,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/867502/",
       "image": "https://imagescf.dealercenter.net/1280/960/202610-44a22afff4a64226a3ad3a16ba3eb8bc.jpg",
       "price": 4495,
-      "mileage": 208612,
+      "mileage": 208787,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
@@ -155,18 +155,6 @@
       "price": 12495,
       "mileage": 117117,
       "drivetrain": "RWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "1FTFW1EV8AFB66185",
-      "stock": "B66185",
-      "title": "2010 FORD F150 SUPERCREW CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/b66185/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-65c0beb8c63448bca2a75c964f9446cb.jpg",
-      "price": 12495,
-      "mileage": 120552,
-      "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
