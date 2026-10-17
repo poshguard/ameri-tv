@@ -1,19 +1,7 @@
 {
-  "updated_at": "2026-10-17T19:55:38.183Z",
+  "updated_at": "2026-10-17T22:49:16.260Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
-    {
-      "vin": "JTDKB20U997867502",
-      "stock": "867502",
-      "title": "2009 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/867502/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202610-44a22afff4a64226a3ad3a16ba3eb8bc.jpg",
-      "price": 4495,
-      "mileage": 208787,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
-    },
     {
       "vin": "JHMES966X5S003465",
       "stock": "003465",
