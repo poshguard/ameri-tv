@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T16:04:50.400Z",
+  "updated_at": "2026-10-20T02:48:26.997Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -8,7 +8,7 @@
       "title": "2005 HONDA CIVIC",
       "url": "https://www.ameriautogroup.com/inventory/honda/civic/003465/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-eaebc46a98044d3488d1e775ec4d26b8.jpg",
-      "price": 5295,
+      "price": 4995,
       "mileage": 139900,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -188,11 +188,23 @@
       "title": "2015 TOYOTA SIENNA",
       "url": "https://www.ameriautogroup.com/inventory/toyota/sienna/105603/",
       "image": "https://imagescf.dealercenter.net/1280/960/202610-e5f0c6f72d074b268a4664b56709b3f1.jpg",
-      "price": 14995,
+      "price": 14595,
       "mileage": 160808,
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTMRJREV0JD247154",
+      "stock": "247154",
+      "title": "2018 TOYOTA RAV4 HYBRID",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/rav4-hybrid/247154/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-11f7c63e68ba43d2969e7beeb6c2a6b6.jpg",
+      "price": 15495,
+      "mileage": 130047,
+      "drivetrain": "AWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     },
     {
       "vin": "JTDKARFP9L3160072",
