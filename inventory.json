@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T14:17:15.525Z",
+  "updated_at": "2026-10-21T19:04:41.329Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -95,6 +95,18 @@
       "price": 10495,
       "mileage": 117884,
       "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "NM0LS7F2XK1413787",
+      "stock": "413787",
+      "title": "2019 FORD TRANSIT CONNECT CARGO",
+      "url": "https://www.ameriautogroup.com/inventory/ford/transit-connect-cargo/413787/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-125a2bd4e9b24af4af8b477d5d9af8fb.jpg",
+      "price": 10495,
+      "mileage": 150176,
+      "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
