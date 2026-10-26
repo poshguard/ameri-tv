@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T15:39:52.941Z",
+  "updated_at": "2026-10-26T22:10:02.045Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -61,18 +61,6 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
-    },
-    {
-      "vin": "4T3BA3BB5BU019745",
-      "stock": "019745",
-      "title": "2011 TOYOTA VENZA",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/venza/019745/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-fad73edc97764a34af5d33d458f0be0c.jpg",
-      "price": 8695,
-      "mileage": 129110,
-      "drivetrain": "AWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
     },
     {
       "vin": "1GCPCPEX8AZ211237",
@@ -273,7 +261,7 @@
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-supercrew-cab/e06353/",
       "image": "https://imagescf.dealercenter.net/1280/960/202607-c50294bab0ab42ada5a13b509c1a3818.jpg",
       "price": 19995,
-      "mileage": 122409,
+      "mileage": 122751,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
