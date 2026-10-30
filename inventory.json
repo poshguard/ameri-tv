@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:32:16.848Z",
+  "updated_at": "2026-10-30T21:51:23.431Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -297,7 +297,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/060482/",
       "image": "https://imagescf.dealercenter.net/1280/960/202610-c99b3e4b5aa84207bf943790aa00710a.jpg",
       "price": 26995,
-      "mileage": 3805,
+      "mileage": 3820,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
