@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T13:22:15.103Z",
+  "updated_at": "2026-11-03T20:44:53.857Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -36,6 +36,18 @@
       "mileage": 108188,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JM1BL1LP0D1832615",
+      "stock": "832615",
+      "title": "2013 MAZDA MAZDA3",
+      "url": "https://www.ameriautogroup.com/inventory/mazda/mazda3/832615/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-e6e07203eb214840ac300e112002caa7.jpg",
+      "price": 8495,
+      "mileage": 102934,
+      "drivetrain": "FWD",
+      "transmission": "MANUAL",
       "fuel": "GASOLINE"
     },
     {
