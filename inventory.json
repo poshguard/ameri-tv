@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:10:57.696Z",
+  "updated_at": "2026-11-05T01:13:10.466Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -147,6 +147,18 @@
       "fuel": "GASOLINE"
     },
     {
+      "vin": "1FTLR4FE1BPA07918",
+      "stock": "A07918",
+      "title": "2011 FORD RANGER SUPER CAB",
+      "url": "https://www.ameriautogroup.com/inventory/ford/ranger-super-cab/a07918/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-6b175ba104e44ff189041d7001d96205.jpg",
+      "price": 12595,
+      "mileage": 144216,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
+    },
+    {
       "vin": "1FTFW1EV3AFD64124",
       "stock": "D64124",
       "title": "2010 FORD F150 SUPERCREW CAB",
@@ -274,18 +286,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202609-eae226e0a6394ba097ccff7442d1c314.jpg",
       "price": 24995,
       "mileage": 95235,
-      "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "1FTLR4FE1BPA07918",
-      "stock": "A07918",
-      "title": "2011 FORD RANGER SUPER CAB",
-      "url": "https://www.ameriautogroup.com/inventory/ford/ranger-super-cab/a07918/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202611-6b175ba104e44ff189041d7001d96205.jpg",
-      "price": null,
-      "mileage": 144216,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
