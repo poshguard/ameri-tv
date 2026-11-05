@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T10:07:49.243Z",
+  "updated_at": "2026-11-05T19:17:58.177Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -69,7 +69,7 @@
       "url": "https://www.ameriautogroup.com/inventory/chevrolet/silverado-1500-regular-cab/211237/",
       "image": "https://imagescf.dealercenter.net/1280/960/202610-1492da1e3ebd4d02b78cc9aff134b046.jpg",
       "price": 8995,
-      "mileage": 86085,
+      "mileage": 86145,
       "drivetrain": "2WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
@@ -93,7 +93,7 @@
       "url": "https://www.ameriautogroup.com/inventory/ford/f150-super-cab/a89001/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-f00c34d8165f4d9e819e0a9bc20c1501.jpg",
       "price": 9995,
-      "mileage": 117884,
+      "mileage": 117969,
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
@@ -237,7 +237,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius-prime/160072/",
       "image": "https://imagescf.dealercenter.net/1280/960/202608-ead8902371a74223b2f8446a3807fa6d.jpg",
       "price": 15995,
-      "mileage": 105556,
+      "mileage": 106097,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
