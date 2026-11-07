@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:29:19.820Z",
+  "updated_at": "2026-11-07T17:14:42.059Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -47,7 +47,7 @@
       "price": 8495,
       "mileage": 102934,
       "drivetrain": "FWD",
-      "transmission": "MANUAL",
+      "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
     {
