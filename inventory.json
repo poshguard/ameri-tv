@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T10:12:26.505Z",
+  "updated_at": "2026-11-07T00:33:16.499Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -253,6 +253,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDKN3DUXA1029638",
+      "stock": "029638",
+      "title": "2010 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/029638/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-4778b01ad3244a158bbe2294c6b5685d.jpg",
+      "price": null,
+      "mileage": 85345,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
