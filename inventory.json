@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:17:01.968Z",
+  "updated_at": "2026-11-08T03:38:31.197Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -205,6 +205,18 @@
       "drivetrain": "AWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "1GCRKSE71DZ169075",
+      "stock": "169075",
+      "title": "2013 CHEVROLET SILVERADO 1500 EXTENDED CAB",
+      "url": "https://www.ameriautogroup.com/inventory/chevrolet/silverado-1500-extended-cab/169075/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-48097afecf0847698e6d1376d907b949.jpg",
+      "price": 14995,
+      "mileage": 79517,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     },
     {
       "vin": "JTEBU11F670067164",
