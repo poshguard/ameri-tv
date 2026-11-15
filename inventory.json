@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T12:47:40.872Z",
+  "updated_at": "2026-11-15T18:19:09.524Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -107,18 +107,6 @@
       "price": 11795,
       "mileage": 134852,
       "drivetrain": "4WD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "2G1FC1E32E9313499",
-      "stock": "313499",
-      "title": "2014 CHEVROLET CAMARO",
-      "url": "https://www.ameriautogroup.com/inventory/chevrolet/camaro/313499/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202608-b4fa1d9cdf374d5f945cb382016860c4.jpg",
-      "price": 11995,
-      "mileage": 117117,
-      "drivetrain": "RWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
     },
@@ -277,6 +265,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "JTDACAAU6S3060482",
+      "stock": "060482",
+      "title": "2025 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/060482/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-c99b3e4b5aa84207bf943790aa00710a.jpg",
+      "price": 26995,
+      "mileage": 3820,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
