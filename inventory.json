@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T00:35:25.296Z",
+  "updated_at": "2026-11-17T05:53:42.703Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -243,18 +243,6 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "JTDACAAU8R3026117",
-      "stock": "026117",
-      "title": "2024 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/026117/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202606-e400ddbdc1814967821dfeb76532547e.jpg",
-      "price": 23495,
-      "mileage": 44286,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
-    },
-    {
       "vin": "1FTFW1E40KFC94901",
       "stock": "C94901",
       "title": "2019 FORD F150 SUPERCREW CAB",
@@ -267,13 +255,13 @@
       "fuel": "GASOLINE"
     },
     {
-      "vin": "JTDACAAU6S3060482",
-      "stock": "060482",
-      "title": "2025 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/060482/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202610-c99b3e4b5aa84207bf943790aa00710a.jpg",
-      "price": 26995,
-      "mileage": 3820,
+      "vin": "JTDKB20U653118528",
+      "stock": "118528",
+      "title": "2005 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/118528/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-f55c9fd52076494c89afc61ad569619d.jpg",
+      "price": null,
+      "mileage": 144848,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
