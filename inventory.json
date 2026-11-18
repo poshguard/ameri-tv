@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T15:16:31.029Z",
+  "updated_at": "2026-11-18T00:18:41.088Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -22,6 +22,18 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202611-5a06316df51d4e8584925db209eba53e.jpg",
       "price": 5995,
       "mileage": 156856,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
+    },
+    {
+      "vin": "JTDKB20U653118528",
+      "stock": "118528",
+      "title": "2005 TOYOTA PRIUS",
+      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/118528/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-f55c9fd52076494c89afc61ad569619d.jpg",
+      "price": 6495,
+      "mileage": 144848,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
@@ -253,18 +265,6 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
-    },
-    {
-      "vin": "JTDKB20U653118528",
-      "stock": "118528",
-      "title": "2005 TOYOTA PRIUS",
-      "url": "https://www.ameriautogroup.com/inventory/toyota/prius/118528/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202611-f55c9fd52076494c89afc61ad569619d.jpg",
-      "price": null,
-      "mileage": 144848,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "HYBRID"
     }
   ]
 }
