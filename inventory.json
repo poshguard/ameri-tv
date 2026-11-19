@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T10:59:35.676Z",
+  "updated_at": "2026-11-19T19:49:18.251Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -49,6 +49,18 @@
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "1FMCU59H37KA62574",
+      "stock": "A62574",
+      "title": "2007 FORD ESCAPE",
+      "url": "https://www.ameriautogroup.com/inventory/ford/escape/a62574/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-4e3175325f9c4c6bac4c6d059d8f9a6f.jpg",
+      "price": 7995,
+      "mileage": 80558,
+      "drivetrain": "4WD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     },
     {
       "vin": "JM1BL1LP0D1832615",
