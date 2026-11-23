@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T11:34:55.178Z",
+  "updated_at": "2026-11-23T23:09:06.618Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -117,7 +117,7 @@
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/029638/",
       "image": "https://imagescf.dealercenter.net/1280/960/202611-4778b01ad3244a158bbe2294c6b5685d.jpg",
       "price": 9995,
-      "mileage": 85345,
+      "mileage": 85384,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
@@ -295,7 +295,7 @@
       "stock": "735910",
       "title": "2018 HONDA FIT",
       "url": "https://www.ameriautogroup.com/inventory/honda/fit/735910/",
-      "image": "https://www.ameriautogroup.com/dealercenter/img/vehicle-image-notavailable-320x240.jpg",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-d8563af2e6c64b039335e1ca25a9bac5.jpg",
       "price": null,
       "mileage": 112085,
       "drivetrain": "FWD",
