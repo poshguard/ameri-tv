@@ -1,26 +1,14 @@
 {
-  "updated_at": "2026-11-25T03:55:14.121Z",
+  "updated_at": "2026-11-25T16:34:17.527Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
-    {
-      "vin": "1HGFA16517L116754",
-      "stock": "116754",
-      "title": "2007 HONDA CIVIC",
-      "url": "https://www.ameriautogroup.com/inventory/honda/civic/116754/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202610-4f1c9dfef9584ae68ba892027900f712.jpg",
-      "price": 5795,
-      "mileage": 141558,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
     {
       "vin": "JTDKB20U477600488",
       "stock": "600488",
       "title": "2007 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/600488/",
       "image": "https://imagescf.dealercenter.net/1280/960/202611-5a06316df51d4e8584925db209eba53e.jpg",
-      "price": 5995,
+      "price": 5495,
       "mileage": 156856,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
@@ -32,11 +20,23 @@
       "title": "2005 TOYOTA PRIUS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/prius/118528/",
       "image": "https://imagescf.dealercenter.net/1280/960/202611-f55c9fd52076494c89afc61ad569619d.jpg",
-      "price": 5995,
+      "price": 5495,
       "mileage": 144848,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "HYBRID"
+    },
+    {
+      "vin": "1HGFA16517L116754",
+      "stock": "116754",
+      "title": "2007 HONDA CIVIC",
+      "url": "https://www.ameriautogroup.com/inventory/honda/civic/116754/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202610-4f1c9dfef9584ae68ba892027900f712.jpg",
+      "price": 5695,
+      "mileage": 141558,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "GASOLINE"
     },
     {
       "vin": "JTDBT4K35CL017541",
@@ -44,7 +44,7 @@
       "title": "2012 TOYOTA YARIS",
       "url": "https://www.ameriautogroup.com/inventory/toyota/yaris/017541/",
       "image": "https://imagescf.dealercenter.net/1280/960/202609-32f270caeb174bd2ade7993774706f83.jpg",
-      "price": 6495,
+      "price": 6295,
       "mileage": 130707,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
