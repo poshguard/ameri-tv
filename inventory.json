@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T16:34:17.527Z",
+  "updated_at": "2026-11-26T11:45:58.764Z",
   "source": "https://www.ameriautogroup.com/inventory/",
   "vehicles": [
     {
@@ -106,18 +106,6 @@
       "image": "https://imagescf.dealercenter.net/1280/960/202611-3c95873645fd46928543ab0d0363159e.jpg",
       "price": 9995,
       "mileage": 50642,
-      "drivetrain": "FWD",
-      "transmission": "AUTOMATIC",
-      "fuel": "GASOLINE"
-    },
-    {
-      "vin": "NM0LS7F2XK1413787",
-      "stock": "413787",
-      "title": "2019 FORD TRANSIT CONNECT CARGO",
-      "url": "https://www.ameriautogroup.com/inventory/ford/transit-connect-cargo/413787/",
-      "image": "https://imagescf.dealercenter.net/1280/960/202610-125a2bd4e9b24af4af8b477d5d9af8fb.jpg",
-      "price": 10495,
-      "mileage": 150176,
       "drivetrain": "FWD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
@@ -289,6 +277,18 @@
       "drivetrain": "4WD",
       "transmission": "AUTOMATIC",
       "fuel": "GASOLINE"
+    },
+    {
+      "vin": "58ADA1C14SU070285",
+      "stock": "070285",
+      "title": "2025 LEXUS ES",
+      "url": "https://www.ameriautogroup.com/inventory/lexus/es/070285/",
+      "image": "https://imagescf.dealercenter.net/1280/960/202611-74b6f654b198431f8dc4664104811a5a.jpg",
+      "price": 46995,
+      "mileage": 13341,
+      "drivetrain": "FWD",
+      "transmission": "AUTOMATIC",
+      "fuel": "HYBRID"
     }
   ]
 }
